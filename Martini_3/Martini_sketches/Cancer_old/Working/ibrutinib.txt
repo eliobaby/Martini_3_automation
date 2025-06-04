@@ -1,0 +1,40 @@
+name of compound: ibrutinib
+Smiles code: C=CC(=O)N1CCC[C@H](C1)N2C3=NC=NC(=C3C(=N2)C4=CC=C(C=C4)OC5=CC=CC=C5)N
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC5        0,1                       C,C                       1              
+1        TN4a       2,3                       C,O                       2              
+2        SC3        4,5,6                     N,C,C                     2              
+3        SC3        7,8,9                     C,C,C                     2              
+4        SN6d       10,11,16                  N,C,C                     4              
+5        TN6a       12,13                     N,C                       2              
+6        SN6d       14,15,32                  N,C,N                     2              
+7        TN6a       17,18                     C,N                       2              
+8        TC5        19,20                     C,C                       3              
+9        SN6        21,22,25                  C,C,O                     3              
+10       TC5        23,24                     C,C                       2              
+11       TC5        26,27                     C,C                       3              
+12       TC5        28,29                     C,C                       2              
+13       TC5        30,31                     C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+1        2                    1.0       
+2        3                    1.0       
+3        4                    1.0       
+4        5                    1.5       
+4        6                    1.5       
+4        7                    1.5       
+5        6                    1.5       
+7        8                    1.0       
+8        9                    1.5       
+8        10                   1.5       
+9        10                   1.5       
+9        11                   1.0       
+11       12                   1.5       
+11       13                   1.5       
+12       13                   1.5       

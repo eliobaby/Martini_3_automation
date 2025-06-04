@@ -1,0 +1,5 @@
+working count: 28
+half-working count: 1
+fake-working count: 1
+large-working count: 3
+non-working count: 105

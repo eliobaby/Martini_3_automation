@@ -1,0 +1,13 @@
+name of compound: CYCLOPENTANOL
+Smiles code: OC1CCCC1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SN6        0,1,2                     O,C,C                     1              
+1        SC3        3,4,5                     C,C,C                     1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       

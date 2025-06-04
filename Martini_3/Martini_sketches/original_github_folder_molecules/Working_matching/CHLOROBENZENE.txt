@@ -1,0 +1,16 @@
+name of compound: CHLOROBENZENE
+Smiles code: C1=CC=C(C=C1)Cl
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC5        0,1                       C,C                       2              
+1        SX3        2,3,6                     C,C,Cl                    2              
+2        TC5        4,5                       C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+1        2                    1.5       

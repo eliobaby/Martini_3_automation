@@ -1,0 +1,29 @@
+name of compound: TETRACENE
+Smiles code: c4ccc3cc2cc1ccccc1cc2cc3c4
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC5        0,17                      c,c                       2              
+1        TC5        1,2                       c,c                       2              
+2        TC5e       3,16                      c,c                       3              
+3        TC5        4,15                      c,c                       2              
+4        TC5e       5,14                      c,c                       2              
+5        TC5        6,13                      c,c                       2              
+6        TC5e       7,12                      c,c                       3              
+7        TC5        8,9                       c,c                       2              
+8        TC5        10,11                     c,c                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+1        2                    1.5       
+2        3                    1.5       
+3        4                    1.5       
+4        5                    1.5       
+5        6                    1.5       
+6        7                    1.5       
+6        8                    1.5       
+7        8                    1.5       

@@ -1,0 +1,13 @@
+name of compound: TETRAHYDROPYRAN
+Smiles code: O1CCCCC1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SN4a       0,1,5                     O,C,C                     1              
+1        SC3        2,3,4                     C,C,C                     1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       

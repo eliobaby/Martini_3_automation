@@ -1,0 +1,39 @@
+name of compound: DOX
+Smiles code: C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC4        0,1                       C,C                       2              
+1        TC5        2,13                      C,C                       4              
+2        TN6        3,31                      C,O                       2              
+3        SN6        4,10,23                   C,C,O                     4              
+4        SN6a       5,6,7                     C,C,O                     3              
+5        SN6        8,9,24                    C,C,O                     3              
+6        TN6a       11,12                     C,O                       2              
+7        TN6        14,22                     C,O                       2              
+8        TC5e       15,16                     C,C                       4              
+9        TC5        17,18                     C,C                       2              
+10       SN6        19,20,21                  C,C,O                     2              
+11       SN4a       25,26,27                  C,O,N                     1              
+12       SN1        28,29,30                  N,C,C                     1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+0        8                    1.0       
+1        2                    1.0       
+1        6                    1.0       
+1        7                    2.0       
+2        3                    1.0       
+3        4                    1.0       
+3        5                    1.0       
+3        6                    1.0       
+4        5                    1.0       
+4        12                   1.0       
+5        11                   1.0       
+7        8                    1.0       
+8        9                    1.5       
+8        10                   1.5       
+9        10                   1.5       

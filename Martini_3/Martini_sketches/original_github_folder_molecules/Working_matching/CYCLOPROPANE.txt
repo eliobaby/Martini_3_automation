@@ -1,0 +1,11 @@
+name of compound: CYCLOPROPANE
+Smiles code: C1CC1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC3        0,1,2                     C,C,C                     0              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 

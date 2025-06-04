@@ -1,0 +1,29 @@
+name of compound: letrozole
+Smiles code: C1=CC(=CC=C1C#N)C(C2=CC=C(C=C2)C#N)N3C=NC=N3
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC5        0,5                       C,C                       3              
+1        SC4        1,2,8                     C,C,C                     4              
+2        TC5        3,4                       C,C                       2              
+3        TN4a       6,7                       C,N                       1              
+4        TC5        9,10                      C,C                       3              
+5        TC5        11,12                     C,C                       3              
+6        TC5        13,14                     C,C                       2              
+7        TN4a       15,16                     C,N                       1              
+8        SC3        17,18,19,20,21            N,C,N,C,N                 1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+0        3                    1.0       
+1        2                    1.5       
+1        4                    1.0       
+1        8                    1.0       
+4        5                    1.5       
+4        6                    1.5       
+5        6                    1.5       
+5        7                    1.0       

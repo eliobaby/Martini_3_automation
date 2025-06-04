@@ -1,0 +1,16 @@
+name of compound: FURAN
+Smiles code: O1C=CC=C1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TN2a       0                         O                         2              
+1        TC5        1,2                       C,C                       2              
+2        TC5        3,4                       C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+1        2                    1.5       

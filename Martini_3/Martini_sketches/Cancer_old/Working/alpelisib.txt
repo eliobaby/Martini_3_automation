@@ -1,0 +1,33 @@
+name of compound: alpelisib
+Smiles code: CC1=C(SC(=N1)NC(=O)N2CCC[C@H]2C(=O)N)C3=CC(=NC=C3)C(C)(C)C(F)(F)F
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC4        0,1,2                     C,C,C                     3              
+1        TC6        3                         S                         2              
+2        TN6a       4,5                       C,N                       3              
+3        SN4a       6,7,8                     N,C,O                     2              
+4        SN1        9,10,11,12,13             N,C,C,C,C                 2              
+5        SN4a       14,15,16                  C,O,N                     1              
+6        TC5        17,18                     C,C                       3              
+7        TN6a       19,20                     C,N                       3              
+8        TC5        21,22                     C,C                       2              
+9        SC2        23,24,25                  C,C,C                     2              
+10       SX4e       26,27,28,29               C,F,F,F                   1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+0        6                    1.0       
+1        2                    1.5       
+2        3                    1.0       
+3        4                    1.0       
+4        5                    1.0       
+6        7                    1.5       
+6        8                    1.5       
+7        8                    1.5       
+7        9                    1.0       
+9        10                   1.0       

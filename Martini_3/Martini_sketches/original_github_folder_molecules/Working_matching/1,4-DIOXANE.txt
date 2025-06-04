@@ -1,0 +1,13 @@
+name of compound: 1,4-DIOXANE
+Smiles code: O1CCOCC1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SN3a       0,1,5                     O,C,C                     1              
+1        SN3a       2,3,4                     C,O,C                     1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       

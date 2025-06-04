@@ -1,0 +1,18 @@
+name of compound: 4-BROMOANISOLE
+Smiles code: COC1=CC=C(C=C1)Br
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SN2a       0,1,2                     C,O,C                     2              
+1        TC5        3,4                       C,C                       2              
+2        TX2        5,8                       C,Br                      2              
+3        TC5        6,7                       C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        3                    1.5       
+1        2                    1.5       
+2        3                    1.5       

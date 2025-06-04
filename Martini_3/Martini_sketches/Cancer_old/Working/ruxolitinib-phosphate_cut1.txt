@@ -1,0 +1,33 @@
+name of compound: ruxolitinib-phosphate_cut1
+Smiles code: C1CCC(C1)[C@@H](CC#N)N2C=C(C=N2)C3=C4C=CNC4=NC=N3
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC3        0,1,4                     C,C,C                     1              
+1        TC3        2,3                       C,C                       2              
+2        TC3        5,6                       C,C                       3              
+3        TN4a       7,8                       C,N                       1              
+4        SN6d       9,10,11                   N,C,C                     3              
+5        TN6a       12,13                     C,N                       1              
+6        TC5        14,15                     C,C                       4              
+7        TC5        16,17                     C,C                       2              
+8        TN6d       18                        N                         2              
+9        TN6a       19,20                     C,N                       3              
+10       TN6a       21,22                     C,N                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+1        2                    1.0       
+2        3                    1.0       
+2        4                    1.0       
+4        5                    1.5       
+4        6                    1.0       
+6        7                    1.5       
+6        9                    1.5       
+6        10                   1.5       
+7        8                    1.5       
+8        9                    1.5       
+9        10                   1.5       

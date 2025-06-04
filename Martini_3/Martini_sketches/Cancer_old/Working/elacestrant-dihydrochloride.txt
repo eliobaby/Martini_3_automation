@@ -1,0 +1,43 @@
+name of compound: elacestrant-dihydrochloride
+Smiles code: OC1=CC=C2C[C@H](C3=CC=C(OC)C=C3N(CC)CC4=CC=C(CCNCC)C=C4)CCC2=C1
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SN6        0,1,33                    O,C,C                     2              
+1        TC5        2,3                       C,C                       2              
+2        TC5        4,32                      C,C                       4              
+3        TC3        5,6                       C,C                       3              
+4        TC5        7,8                       C,C                       3              
+5        TC5        9,10                      C,C                       3              
+6        TP1d       11,12                     O,C                       1              
+7        TC5        13,14                     C,C                       3              
+8        N4         15,16,17,18               N,C,C,C                   2              
+9        TC5        19,20                     C,C                       3              
+10       TC5        21,22                     C,C                       3              
+11       SN4        23,24,25                  C,C,N                     2              
+12       TC3        26,27                     C,C                       1              
+13       TC5        28,29                     C,C                       2              
+14       TC3        30,31                     C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        2                    1.5       
+1        2                    1.5       
+2        3                    1.0       
+2        14                   1.0       
+3        4                    1.0       
+3        14                   1.0       
+4        5                    1.5       
+4        7                    1.5       
+5        6                    1.0       
+5        7                    1.5       
+7        8                    1.0       
+8        9                    1.0       
+9        10                   1.5       
+9        13                   1.5       
+10       11                   1.0       
+10       13                   1.5       
+11       12                   1.0       

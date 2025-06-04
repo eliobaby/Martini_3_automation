@@ -1,0 +1,23 @@
+name of compound: 1-ETHYLNAPHTHALENE
+Smiles code: CCC1=CC=CC2=CC=CC=C21
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC3        0,1                       C,C                       1              
+1        TC5        2,3                       C,C                       3              
+2        TC5        4,5                       C,C                       2              
+3        TC5e       6,11                      C,C                       4              
+4        TC5        7,8                       C,C                       2              
+5        TC5        9,10                      C,C                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+1        2                    1.5       
+1        3                    1.5       
+2        3                    1.5       
+3        4                    1.5       
+3        5                    1.5       
+4        5                    1.5       

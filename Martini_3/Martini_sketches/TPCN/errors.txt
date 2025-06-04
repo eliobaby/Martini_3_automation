@@ -1,0 +1,3044 @@
+Error summary (counts per exact message):
+359 times Error: mapping section 0 failed: 
+Error:
+181 times Error: Error: 1-edge non-ring still not mappable
+129 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+105 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+Error:
+87 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: 
+Error:
+70 times Error: mapping section 1 failed: 
+Error:
+70 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: 
+Error:
+69 times Error: mapping section 5 failed: 
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+Error:
+55 times Error: Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+53 times Error: Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+47 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+44 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+34 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: 
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+Error:
+30 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Error:
+28 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: 1-edge non-ring still not mappable
+28 times Error: mapping section 2 failed: 
+Error:
+27 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+26 times Error: Error: Final mapping incomplete; some atoms remain unmapped!
+26 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+24 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+24 times Error: mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+22 times Error: mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: 
+mapping section 11 failed: 
+mapping section 12 failed: 
+mapping section 13 failed: 
+Error:
+21 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 1-edge non-ring still not mappable
+19 times Error: mapping section 1 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+19 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+18 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+Error:
+17 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+16 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+15 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Final mapping incomplete; some atoms remain unmapped!
+15 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Error:
+14 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: 1-edge non-ring still not mappable
+14 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: list index out of range
+13 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: 1-edge non-ring still not mappable
+13 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: list index out of range
+12 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Final mapping incomplete; some atoms remain unmapped!
+12 times Error: mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+12 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+12 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: 3-ring not mappable: Found an atom that is not carbon.
+12 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: 
+Error:
+11 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+11 times Error: Error: list index out of range
+11 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 4; skipping
+Ambiguous ring–ring border for atom 5; skipping
+Error:
+11 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+Error:
+10 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+10 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 87; skipping
+Ambiguous ring–ring border for atom 86; skipping
+Error:
+10 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 61; skipping
+Ambiguous ring–ring border for atom 60; skipping
+Error:
+9 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+9 times Error: mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non-benzene 6-ring section has non C/O atom
+9 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+9 times Error: mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+9 times Error: mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+9 times Error: mapping section 3 failed: 
+Error:
+9 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 17; skipping
+Ambiguous ring–ring border for atom 18; skipping
+Error:
+8 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+8 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: list index out of range
+8 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+8 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+8 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+8 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+mapping section 11 failed: 
+Error:
+8 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+7 times Error: Error: 1-edge non-ring not mappable (non-C)
+7 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+7 times Error: mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 13 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+7 times Error: mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+mapping section 7 failed: 
+Error:
+6 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Final mapping incomplete; some atoms remain unmapped!
+6 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', '=O', 'C=C']).
+6 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCCC).
+6 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+6 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+6 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+Error: list index out of range
+6 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+6 times Error: mapping section 2 failed: 
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+6 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 50; skipping
+Ambiguous ring–ring border for atom 49; skipping
+Error:
+5 times Error: mapping section 4 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+Error: Benzene ring section not fully mappable!
+5 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CC=CCO).
+5 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+5 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+mapping section 3 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+5 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCC=CC).
+5 times Error: mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+5 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Final mapping incomplete; some atoms remain unmapped!
+5 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+mapping section 11 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 12 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Ambiguous ring–ring border for atom 4; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non–ring section mapping too complex (foreign/inner connection).
+5 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 86; skipping
+Ambiguous ring–ring border for atom 85; skipping
+Error:
+5 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 51; skipping
+Ambiguous ring–ring border for atom 50; skipping
+Error:
+5 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: 
+Error:
+5 times Error: mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+5 times Error: mapping section 0 failed: 
+mapping section 2 failed: 
+Error:
+5 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+mapping section 11 failed: 
+Error:
+5 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 25; skipping
+Ambiguous ring–ring border for atom 26; skipping
+Error:
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+4 times Error: Error: lone atom is next to unmapped atoms
+4 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['N', '=O', 'CC']).
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'C', 'C=O']).
+4 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: 1-edge non-ring still not mappable
+4 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=O', 'C', 'O']).
+4 times Error: mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+4 times Error: mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+4 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: mapping section 4 failed: 
+Error:
+4 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+Error:
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+Error:
+4 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 25; skipping
+Ambiguous ring–ring border for atom 24; skipping
+Error:
+4 times Error: mapping section 10 failed: 
+Error:
+4 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 69; skipping
+Ambiguous ring–ring border for atom 68; skipping
+Error:
+4 times Error: mapping section 5 failed: 
+Error:
+4 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 10; skipping
+Ambiguous ring–ring border for atom 11; skipping
+Error:
+4 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 15; skipping
+Error:
+4 times Error: Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 17; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+4 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: 
+Error:
+4 times Error: mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+4 times Error: mapping section 9 failed: 
+mapping section 10 failed: 
+mapping section 11 failed: 
+mapping section 12 failed: 
+Error:
+4 times Error: mapping section 4 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=CC).
+3 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: 1-edge non-ring not mappable (non-C)
+3 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Final mapping incomplete; some atoms remain unmapped!
+3 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+3 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+3 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+3 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=C', 'O', 'C']).
+3 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: non-benzene 6-ring section has non C/O atom
+mapping section 12 failed: non-benzene 6-ring section has non C/O atom
+mapping section 13 failed: non-benzene 6-ring section has non C/O atom
+mapping section 14 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=O', 'C', 'C']).
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 11; skipping
+Ambiguous ring–ring border for atom 12; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 25; skipping
+Ambiguous ring–ring border for atom 31; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Ambiguous ring–ring border for atom 4; skipping
+Ambiguous ring–ring border for atom 15; skipping
+Ambiguous ring–ring border for atom 12; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: list index out of range
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+3 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: 
+Error:
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+3 times Error: Ambiguous ring–ring border for atom 18; skipping
+Ambiguous ring–ring border for atom 17; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+3 times Error: Ambiguous ring–ring border for atom 18; skipping
+Ambiguous ring–ring border for atom 16; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+3 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 68; skipping
+Ambiguous ring–ring border for atom 67; skipping
+Error:
+3 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=C', 'C', 'C']).
+3 times Error: mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+3 times Error: mapping section 8 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+3 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+3 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 40; skipping
+Ambiguous ring–ring border for atom 39; skipping
+Error:
+3 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 71; skipping
+Ambiguous ring–ring border for atom 70; skipping
+Error:
+3 times Error: mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+Error:
+3 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+3 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 84; skipping
+Ambiguous ring–ring border for atom 83; skipping
+Error:
+3 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Ambiguous ring–ring border for atom 26; skipping
+Ambiguous ring–ring border for atom 25; skipping
+mapping section 5 failed: 
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+Error:
+3 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 17; skipping
+Ambiguous ring–ring border for atom 18; skipping
+Error:
+3 times Error: mapping section 6 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Ambiguous ring–ring border for atom 42; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+2 times Error: mapping section 0 failed: 
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 2 size‑1 neighbors but central atom not C/O
+Error: 2 size‑1 neighbors but central atom not C/O
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=CC).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: mapping section 7 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=C', 'C', 'O']).
+2 times Error: mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 12 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCCO).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Ambiguous ring–ring border for atom 5; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'O', 'C=C']).
+2 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCCCL). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCCCL). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCCCL). Beginning to break down further.
+Error: list index out of range
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+2 times Error: mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=O). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=O). Beginning to break down further.
+Error: list index out of range
+2 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=C). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=C). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CC=CCC).
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+2 times Error: mapping section 3 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: lone atom is next to unmapped atoms
+2 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Ambiguous ring–ring border for atom 7; skipping
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 1-edge non-ring still not mappable
+2 times Error: mapping section 2 failed: 
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+Error:
+2 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CC=CC=O).
+2 times Error: mapping section 1 failed: 
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed: 
+Ambiguous ring–ring border for atom 8; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+2 times Error: mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 8; skipping
+Ambiguous ring–ring border for atom 10; skipping
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+mapping section 11 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 12 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 13 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 14 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 15 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=O', 'C', 'C']).
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: list index out of range
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: 
+mapping section 11 failed: 
+mapping section 12 failed: 
+mapping section 13 failed: 
+Error:
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 12 failed: 
+Error:
+2 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+Error: Benzene ring section not fully mappable!
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 20; skipping
+Error: 3-ring not mappable: Found an atom that is not carbon.
+2 times Error: mapping section 2 failed: 
+Ambiguous ring–ring border for atom 103; skipping
+Ambiguous ring–ring border for atom 102; skipping
+Error:
+2 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: 
+mapping section 12 failed: 
+mapping section 13 failed: 
+mapping section 14 failed: 
+Error:
+2 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 48; skipping
+Ambiguous ring–ring border for atom 47; skipping
+Error:
+2 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 70; skipping
+Ambiguous ring–ring border for atom 69; skipping
+Error:
+2 times Error: mapping section 0 failed: 
+mapping section 10 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error:
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 62; skipping
+Ambiguous ring–ring border for atom 61; skipping
+Error:
+2 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 75; skipping
+Ambiguous ring–ring border for atom 74; skipping
+Error:
+2 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: list index out of range
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: 
+mapping section 17 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Final mapping incomplete; some atoms remain unmapped!
+2 times Error: mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: 
+mapping section 10 failed: 
+mapping section 11 failed: 
+mapping section 12 failed: 
+Error:
+2 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 89; skipping
+Ambiguous ring–ring border for atom 88; skipping
+Error:
+2 times Error: mapping section 1 failed: 
+Ambiguous ring–ring border for atom 85; skipping
+Ambiguous ring–ring border for atom 84; skipping
+Error:
+2 times Error: Ambiguous ring–ring border for atom 34; skipping
+Ambiguous ring–ring border for atom 33; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+2 times Error: mapping section 3 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+2 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 69; skipping
+Ambiguous ring–ring border for atom 68; skipping
+mapping section 12 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 15 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: 
+Error: non benzene 6-ring has a lone Oxygen left
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCC=O).
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@35, neighbor beads = ['N6aU>%l\\R']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@35, neighbor beads = ['N6aXT[}xg']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@35, neighbor beads = ['N6ar>bGmC']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@35, neighbor beads = ['N6a?z<1w(']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@36, neighbor beads = ["N6a'Zk6]f"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@36, neighbor beads = ['N6aXFr8A(']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 12 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 13 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 14 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 15 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: 
+mapping section 3 failed: 
+Error: 1-edge non-ring still not mappable
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN12=:boF']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+Error: 1-edge non-ring still not mappable
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CC=CCO).
+1 times Error: [lone‑O] couldn’t map O@15, neighbor beads = ['N61W`\\y.']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@24, neighbor beads = ['N6Futc{A']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@18, neighbor beads = ["TN1'~D;m8"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@13, neighbor beads = ['N6aL{3yji']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@6, neighbor beads = ['SN2a^35OX]']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dNb,3@~']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 7 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: mapping section 1 failed: Benzene ring section not fully mappable!
+mapping section 3 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 6 failed: 10
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@5, neighbor beads = ['SN10xmS+j']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=CC).
+1 times Error: [lone‑O] couldn’t map O@16, neighbor beads = ['N6[,*X,`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dMdXK87']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6\\@_SY/']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 2 size‑1 neighbors but central atom not C/O
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 2 size‑1 neighbors but central atom not C/O
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@17, neighbor beads = ['N6.p@Lt&']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dNSd]Le']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@13, neighbor beads = ['N6aDk,mij']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6drnvN@r']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@8, neighbor beads = ['SN1M":+<R']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@19, neighbor beads = ['TN1c$IX96']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 5 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@21, neighbor beads = ['N6prh/s9']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dxS.D\\(']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 12 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 13 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 14 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@19, neighbor beads = ['TN1|M/K[{']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@8, neighbor beads = ['SN1S(ws1`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@37, neighbor beads = ['SN6d"d$DwQ']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['SN6dih#!<m']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'CC=CCCCC', 'CCCC=CCC']).
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+mapping section 11 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@21, neighbor beads = ['N6AfAr:`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 7 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@22, neighbor beads = ['N62KDh~Y']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dxPy5LB']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dU9<g9!']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@37, neighbor beads = ["SN6dqs]kT'"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 1 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['SN6dHKw)"h']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@8, neighbor beads = ['SN1K]\\mzU']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6d<X`HR%']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN6dxu7Z9s']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+[lone‑O] couldn’t map O@6, neighbor beads = ['TN1kQ3uqj']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+mapping section 11 failed: non-benzene 6-ring section has non C/O atom
+mapping section 12 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+[lone‑O] couldn’t map O@29, neighbor beads = ['SN6dDreSc3']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+[lone‑O] couldn’t map O@6, neighbor beads = ['TN1J8sGJe']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+mapping section 5 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@15, neighbor beads = ['SN6d.jAg2K']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+[lone‑O] couldn’t map O@6, neighbor beads = ['TN1[z|E:d']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+[lone‑O] couldn’t map O@6, neighbor beads = ['TN1ct{`C9']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+[lone‑O] couldn’t map O@6, neighbor beads = ['N6a1TJHO-']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: OCCCC).
+1 times Error: mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: [lone‑O] couldn’t map O@18, neighbor beads = ['N6Ln+JAS']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@16, neighbor beads = ['N4abpB4,p']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: 1-edge non-ring still not mappable
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@16, neighbor beads = ['N6:q-.Xe']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@16, neighbor beads = ['N6R4i4BA']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: list index out of range
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCCC).
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: O=COCC).
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=CC=C). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=C). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6aMlh,Sz']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6a\\O"WY_']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6a]Zy[dU']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Ambiguous ring–ring border for atom 32; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: lone atom is next to unmapped atoms
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6aU8y\\}T']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['O', '=O', 'C=O']).
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6aB\\$M}M']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['N6`OiO2E']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@18, neighbor beads = ['N5aRQTiTu']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: lone atom is next to unmapped atoms
+1 times Error: mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=C', 'O', 'C']).
+1 times Error: [lone‑O] couldn’t map O@18, neighbor beads = ["N5ara;u'3"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=O). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=O). Beginning to break down further.
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6a{"/.<+']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@14, neighbor beads = ['N62E3p7^']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@25, neighbor beads = ['N6]C"A(C']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@17, neighbor beads = ['N5adLp$SP']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['N5a0$ldIU']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@80, neighbor beads = ['N6,VP_(o']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N67J(S[i']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@21, neighbor beads = ['N6S=kzRR']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@21, neighbor beads = ['N6?Q;mg$']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6aC&OhSI']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCC=C). Beginning to break down further.
+[lone‑O] couldn’t map O@31, neighbor beads = ['N6uel>?h']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCCC).
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'C=C', 'O']).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6a95l(!L']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6aiuZLH?']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6aZ{/~t]']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@52, neighbor beads = ['N6us+9m\\']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6aJh#~a?']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCC=CC).
+1 times Error: [lone‑O] couldn’t map O@15, neighbor beads = ['N6^JH1}z']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 1 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+Error: Benzene ring section not fully mappable!
+1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ["N5aNQw'he"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6ayeJ8IR']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@29, neighbor beads = ["N6{Jmz'V"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 
+Error:
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['N5amZ1uw!']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['N5a5eZM;T']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6f<aj88']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6ZA<Eb~']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@9, neighbor beads = ['N6Dl/N}0']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6a^y?!IH']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['N5aav|S$i']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: COCC). Beginning to break down further.
+Error: 1-edge non-ring still not mappable
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@39, neighbor beads = ['N5aeRm5"\\']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@18, neighbor beads = ['N5a/zN*J4']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCCO).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6a|{"Eb,']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@6, neighbor beads = ['N6ahBK`@9']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@29, neighbor beads = ['N6\\+~5Ur']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['OO', 'C', 'C']).
+1 times Error: mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@52, neighbor beads = ['N6u5LpQ&']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@16, neighbor beads = ['N6?}>I5Q']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 1-edge non-ring still not mappable
+1 times Error: mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6nZ1/W$']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+mapping section 6 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@81, neighbor beads = ['N6D*f.R1']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6REV|d4']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@81, neighbor beads = ['N6&p[l|4']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@60, neighbor beads = ['N6)/KRrr']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@40, neighbor beads = ['N6v1[N3M']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@30, neighbor beads = ['N6#5X~d.']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@71, neighbor beads = ['N6~aD?}@']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6hBg]z1']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@49, neighbor beads = ['N64)91o0']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@80, neighbor beads = ['N6}N4OsE']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@60, neighbor beads = ['N6&97>:R']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6D<.<?D']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@60, neighbor beads = ['N6m@)}_9']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@30, neighbor beads = ['N6q5eGrV']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@50, neighbor beads = ['N68?{(,9']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@61, neighbor beads = ['N6o;;%!0']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6a=122X']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@49, neighbor beads = ['N6[2D[o|']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@21, neighbor beads = ["N6'ImaQB"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['OC', 'C', 'C']).
+1 times Error: mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6a`!KJq;']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@10, neighbor beads = ['SN6aUy,taW']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: O=C=CO). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: O=C=C=C=C=C=C=C=C).
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: O=C=C=C=C=C=C=C=C).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@50, neighbor beads = ["N6R.D-'z"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@51, neighbor beads = ['N6e`qL1t']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@61, neighbor beads = ['N6gP4s\\b']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@40, neighbor beads = ['SN5aLZH2/f']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@19, neighbor beads = ['N6\\YYL(H']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6,UC~sG']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 1 failed: Benzene ring section not fully mappable!
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: Benzene ring section not fully mappable!
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: COCC). Beginning to break down further.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CC=CC=O).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@35, neighbor beads = ['SN2a!-6kR0']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 7; skipping
+Ambiguous ring–ring border for atom 9; skipping
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 8; skipping
+Error:
+1 times Error: mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@8, neighbor beads = ['SN2a0O/r,4']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@9, neighbor beads = ['SN2a\\=V#tn']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@5, neighbor beads = ['SN6a)j}e*#']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@16, neighbor beads = ['N6rtSsbi']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@30, neighbor beads = ['N6N9"j0r']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@22, neighbor beads = ['SN6aA7DtjL']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@4, neighbor beads = ['SN6dQGap.[']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@21, neighbor beads = ['N6x)1`[I']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@20, neighbor beads = ['SN6aG^#3Ru']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 17 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 18 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 19 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 20 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@29, neighbor beads = ['N6J=a!<)']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@17, neighbor beads = ['N6Spz1hs']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@22, neighbor beads = ['N6=N59O8']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'O', 'C=O']).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+mapping section 6 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@36, neighbor beads = ['SN2a{n`][6']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@16, neighbor beads = ['SN6ap1sU}8']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@22, neighbor beads = ['N6.u33HY']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: NCCO). Beginning to break down further.
+[lone‑O] couldn’t map O@29, neighbor beads = ['SN6aWInAB?']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@24, neighbor beads = ['N6DkCf}C']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=O). Beginning to break down further.
+[lone‑O] couldn’t map O@13, neighbor beads = ['SN6aWr!I>0']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@17, neighbor beads = ['N6zi`Y}g']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@35, neighbor beads = ['N6N$Q7l`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@16, neighbor beads = ['N6lc8TU"']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@15, neighbor beads = ['N6eSuV[u']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 23; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 29; skipping
+Ambiguous ring–ring border for atom 34; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: NCCO). Beginning to break down further.
+[lone‑O] couldn’t map O@28, neighbor beads = ['SN6aW-y1)/']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@31, neighbor beads = ['N69{#;o?']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Final mapping incomplete; some atoms remain unmapped!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@41, neighbor beads = ['N601R+@*']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6}~cHA~']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 10 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['SN6abeu(Q]']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 17 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 18 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 19 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 20 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@40, neighbor beads = ['SN2adedVL{']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@40, neighbor beads = ['N63S)"BI']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 10; skipping
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6{`;8r[']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@19, neighbor beads = ['SN6a\\[P*mY']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=O', 'C', 'O']).
+1 times Error: [lone‑O] couldn’t map O@25, neighbor beads = ['N6O2T7H2']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+Ambiguous ring–ring border for atom 8; skipping
+Ambiguous ring–ring border for atom 9; skipping
+Ambiguous ring–ring border for atom 12; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 25; skipping
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 15 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@26, neighbor beads = ['N65O9.@b']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['OC', '=O', 'O']).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 3; skipping
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 12; skipping
+Ambiguous ring–ring border for atom 24; skipping
+Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 40; skipping
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 23; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 26; skipping
+Ambiguous ring–ring border for atom 31; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 23; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 34; skipping
+Ambiguous ring–ring border for atom 39; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Final mapping incomplete; some atoms remain unmapped!
+1 times Error: mapping section 0 failed: 
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+Ambiguous ring–ring border for atom 29; skipping
+Error:
+1 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+mapping section 1 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 18; skipping
+Ambiguous ring–ring border for atom 28; skipping
+Ambiguous ring–ring border for atom 27; skipping
+Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 54; skipping
+Ambiguous ring–ring border for atom 55; skipping
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 23; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Ambiguous ring–ring border for atom 34; skipping
+Ambiguous ring–ring border for atom 38; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 13; skipping
+Ambiguous ring–ring border for atom 14; skipping
+Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 20; skipping
+Ambiguous ring–ring border for atom 27; skipping
+Ambiguous ring–ring border for atom 32; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@15, neighbor beads = ['N6_YtzFM']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C', 'O', 'C=O']).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: Non-benzene 6-ring: no singleton C neighbor for count=5
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 4; skipping
+Error:
+1 times Error: Ambiguous ring–ring border for atom 33; skipping
+Ambiguous ring–ring border for atom 32; skipping
+mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: OCCN). Beginning to break down further.
+[lone‑O] couldn’t map O@41, neighbor beads = ['SN6a"\\7I6/']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 6; skipping
+Ambiguous ring–ring border for atom 7; skipping
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@20, neighbor beads = ['SN6a#[mgBT']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=O', 'O', 'C']).
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6a2p)A@,']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@22, neighbor beads = ["SN1~w26'>"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@29, neighbor beads = ['N6<*9j.:']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@28, neighbor beads = ['N6~kTCF/']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 16 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@27, neighbor beads = ['N677XBky']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6%x<9=i']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 20; skipping
+Ambiguous ring–ring border for atom 30; skipping
+Ambiguous ring–ring border for atom 29; skipping
+Ambiguous ring–ring border for atom 41; skipping
+Ambiguous ring–ring border for atom 56; skipping
+Ambiguous ring–ring border for atom 57; skipping
+mapping section 7 failed: non-benzene 6-ring section has non C/O atom
+mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+mapping section 9 failed: non-benzene 6-ring section has non C/O atom
+mapping section 10 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Ambiguous ring–ring border for atom 4; skipping
+Ambiguous ring–ring border for atom 16; skipping
+Ambiguous ring–ring border for atom 13; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@25, neighbor beads = ['N6;O*88L']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['SN6a5Lsw~]']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 1-edge non-ring still not mappable
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCOC=O).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@34, neighbor beads = ['N6X*IO%3']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@23, neighbor beads = ['N6:8bKPF']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 6 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 7 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 8 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 9 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 10 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: 1-edge non-ring still not mappable
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@18, neighbor beads = ['N6~?*G5+']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: S and branches: ['=O', '=O', 'O']).
+1 times Error: mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@29, neighbor beads = ['SN6a.~u|n<']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@7, neighbor beads = ['SN6aYmnI3<']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@45, neighbor beads = ['N6aU0FBq=']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@18, neighbor beads = ['SN2aL>,h):']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@40, neighbor beads = ['SN6anxVmqq']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@13, neighbor beads = ['SN2aFk^1h_']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+Ambiguous ring–ring border for atom 11; skipping
+Ambiguous ring–ring border for atom 13; skipping
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@19, neighbor beads = ['N67VQd3I']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 19 failed: 
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@24, neighbor beads = ['SN6aO0y(|7']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: [lone‑O] couldn’t map O@46, neighbor beads = ['N6\\DVuW1']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@46, neighbor beads = ['N6&u<.lz']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@49, neighbor beads = ['N6p/K+M@']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@45, neighbor beads = ['SN5aCxhoPR']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@33, neighbor beads = ['SN2a&J**tq']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6v!J5&#']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@33, neighbor beads = ['N6U(|;_`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6{6wyv<']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 14 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6]fAJ/j']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['C=C', '=O', 'N']).
+1 times Error: [lone‑O] couldn’t map O@49, neighbor beads = ['N6N}sW.4']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@46, neighbor beads = ['N6",/<-u']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@31, neighbor beads = ['SN2a\'"5e"8']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+mapping section 2 failed: 
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+Error:
+1 times Error: [lone‑O] couldn’t map O@46, neighbor beads = ['N6;:p&Ea']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@33, neighbor beads = ['N60jTOtT']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N63av>^W']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6y"nLBx']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: 
+Error:
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6Tf#4m;']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@10, neighbor beads = ['N6c<\\EuJ']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 42; skipping
+Ambiguous ring–ring border for atom 41; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+1 times Error: Ambiguous ring–ring border for atom 36; skipping
+Ambiguous ring–ring border for atom 35; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N65DK?ks']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: [lone‑O] couldn’t map O@49, neighbor beads = ['N6:>s:U[']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 18; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 8 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 13 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: Ambiguous ring–ring border for atom 30; skipping
+Ambiguous ring–ring border for atom 29; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: Ambiguous ring–ring border for atom 18; skipping
+Ambiguous ring–ring border for atom 17; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Final mapping incomplete; some atoms remain unmapped!
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@24, neighbor beads = ['N6a#H6}q,']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 38; skipping
+Ambiguous ring–ring border for atom 37; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: 
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+1 times Error: mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+Ambiguous ring–ring border for atom 19; skipping
+Ambiguous ring–ring border for atom 18; skipping
+Error:
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 20; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Error:
+1 times Error: [lone‑O] couldn’t map O@50, neighbor beads = ['N6P{*NR`']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['N6+W5H#Z']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6pV]sV;']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@51, neighbor beads = ['N6n&2+^t']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@48, neighbor beads = ['N6xnsO1}']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@46, neighbor beads = ['SN5aeO}Qil']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@51, neighbor beads = ['N68UYlrh']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@28, neighbor beads = ['SN6a1orVy%']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 36; skipping
+Ambiguous ring–ring border for atom 34; skipping
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@42, neighbor beads = ['SN5aE`6[X5']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 49; skipping
+Ambiguous ring–ring border for atom 48; skipping
+Error:
+1 times Error: Ambiguous ring–ring border for atom 17; skipping
+Ambiguous ring–ring border for atom 16; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@24, neighbor beads = ['SN2ag~?qi!']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 60; skipping
+Ambiguous ring–ring border for atom 59; skipping
+Error:
+1 times Error: Ambiguous ring–ring border for atom 38; skipping
+Ambiguous ring–ring border for atom 36; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+[lone‑O] couldn’t map O@35, neighbor beads = ['N6a4s%<w%']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 72; skipping
+Ambiguous ring–ring border for atom 71; skipping
+Error:
+1 times Error: Ambiguous ring–ring border for atom 20; skipping
+Ambiguous ring–ring border for atom 16; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@46, neighbor beads = ['SN5ae:ivBA']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 22; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: 
+mapping section 16 failed: non benzene 6-ring has a lone Oxygen left
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@33, neighbor beads = ['SN2aY(-:rF']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@71, neighbor beads = ['N6qU:"Sy']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 1 failed: 
+mapping section 2 failed: 
+mapping section 3 failed: 
+mapping section 4 failed: 
+Error:
+1 times Error: [lone‑O] couldn’t map O@39, neighbor beads = ['N6*GcoA[']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['N6Zb:W-a']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 14 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+Error:
+1 times Error: [lone‑O] couldn’t map O@43, neighbor beads = ['N6@f&!~k']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['N6+IxFkg']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@43, neighbor beads = ['N6#$]DcZ']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@26, neighbor beads = ['N6)_QVC{']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 3 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 5 failed: 
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 2 failed: 
+Ambiguous ring–ring border for atom 93; skipping
+Ambiguous ring–ring border for atom 92; skipping
+Error:
+1 times Error: mapping section 0 failed: 
+mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+Ambiguous ring–ring border for atom 22; skipping
+Ambiguous ring–ring border for atom 21; skipping
+Error:
+1 times Error: Ambiguous ring–ring border for atom 26; skipping
+Ambiguous ring–ring border for atom 25; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+1 times Error: mapping section 3 failed: 
+Ambiguous ring–ring border for atom 123; skipping
+Ambiguous ring–ring border for atom 122; skipping
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@46, neighbor beads = ["SN5aF('zh5"]
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 12 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@46, neighbor beads = ['SN5ag9ym>.']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 5 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 13; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: 
+Ambiguous ring–ring border for atom 15; skipping
+Ambiguous ring–ring border for atom 13; skipping
+Error:
+1 times Error: [lone‑O] couldn’t map O@50, neighbor beads = ['N6#=.P,6']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@39, neighbor beads = ['N6d9N:$l']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 24; skipping
+Ambiguous ring–ring border for atom 25; skipping
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 4 failed: 
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 11 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error:
+1 times Error: mapping section 6 failed: Benzene ring section not fully mappable!
+mapping section 15 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 6 failed: Benzene ring section not fully mappable!
+mapping section 9 failed: Benzene ring section not fully mappable!
+mapping section 10 failed: Benzene ring section not fully mappable!
+mapping section 11 failed: Benzene ring section not fully mappable!
+mapping section 12 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Ambiguous ring–ring border for atom 50; skipping
+Ambiguous ring–ring border for atom 48; skipping
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 7 failed: 
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['OC', 'C', 'C']).
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 23; skipping
+Ambiguous ring–ring border for atom 22; skipping
+Error:
+1 times Error: [lone‑O] couldn’t map O@36, neighbor beads = ['SN6a>[?J-1']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@48, neighbor beads = ['SN5a<ias+T']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 2 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 7 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 8 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 9 failed: Non–ring section mapping too complex (foreign/inner connection).
+mapping section 10 failed: Non–ring section mapping too complex (foreign/inner connection).
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+mapping section 5 failed: 
+Error: Benzene ring section not fully mappable!
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: lone atom is next to unmapped atoms
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 67; skipping
+Ambiguous ring–ring border for atom 66; skipping
+Error:
+1 times Error: [lone‑O] couldn’t map O@52, neighbor beads = ['N6:hX]i3']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@50, neighbor beads = ['N6PJ}aeL']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: Ambiguous ring–ring border for atom 18; skipping
+Ambiguous ring–ring border for atom 16; skipping
+mapping section 7 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CC=C). Beginning to break down further.
+Linear path of 4 cannot be mapped: no candidate bead found for 2-edge mapping (path: C=CCO). Beginning to break down further.
+Error: list index out of range
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: Ambiguous ring–ring border for atom 24; skipping
+Ambiguous ring–ring border for atom 23; skipping
+mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+Error:
+1 times Error: mapping section 3 failed: 
+mapping section 4 failed: 
+mapping section 5 failed: 
+mapping section 6 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 8 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error:
+1 times Error: mapping section 7 failed: 
+Error:
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+mapping section 4 failed: non benzene 6-ring has a lone Oxygen left
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 8 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 9 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 10 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 14 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Final mapping incomplete; some atoms remain unmapped!
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+[lone‑O] couldn’t map O@22, neighbor beads = ['N6m_"o\'p']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+[lone‑O] couldn’t map O@34, neighbor beads = ['SN2aXN\\b)g']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Ambiguous ring–ring border for atom 17; skipping
+Ambiguous ring–ring border for atom 15; skipping
+Ambiguous ring–ring border for atom 48; skipping
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+mapping section 12 failed: 3-ring not mappable: Found an atom that is not carbon.
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: [lone‑O] couldn’t map O@44, neighbor beads = ['N6N1A8~u']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 39; skipping
+Ambiguous ring–ring border for atom 38; skipping
+Error: failed on largest fragment 'CC1(C)CCC2(C(=O)OC3OC(COC4OC(CO)C(O)C(O)C4O)C(O)C(O)C3O)CCC6(C)C(=CCC7C5(C)CCC(O)C(C)(COS(=O)(=O)O)C5CCC76C)C2C1':
+1 times Error: Ambiguous ring–ring border for atom 38; skipping
+Ambiguous ring–ring border for atom 37; skipping
+Error: failed on largest fragment 'CC1CCC2(C(=O)OC3OC(COC4OC(CO)C(O)C(O)C4O)C(O)C(O)C3O)CCC6(C)C(=CCC7C5(C)CCC(O)C(C)(COS(=O)(=O)O)C5CCC76C)C2C1C': Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 2 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 8 failed: 
+mapping section 9 failed: 
+mapping section 10 failed: 
+mapping section 11 failed: 
+Error:
+1 times Error: Ambiguous ring–ring border for atom 20; skipping
+Ambiguous ring–ring border for atom 19; skipping
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: mapping section 7 failed: non benzene 6-ring has a lone Oxygen left
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
+mapping section 7 failed: 
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 9 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 14; skipping
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Ambiguous ring–ring border for atom 38; skipping
+Ambiguous ring–ring border for atom 36; skipping
+Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: Error: failed on largest fragment 'C=C1CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC8(C)C(=CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(OS(=O)(=O)O)C(O)C7O)C6O)C(C)(C)C5CCC48C)C2C1': Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 11 failed: 
+Error:
+1 times Error: mapping section 0 failed: 
+Ambiguous ring–ring border for atom 13; skipping
+Error:
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: Non–ring section mapping too complex (foreign/inner connection).
+[lone‑O] couldn’t map O@48, neighbor beads = ['SN5a_37"d#']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: [lone‑O] couldn’t map O@54, neighbor beads = ['N6ba1H$;']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: mapping section 0 failed: 
+Error: failed on largest fragment 'CC1(C)CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC8(C)C(=CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(O)C(O)C7O)C6OS(=O)(=O)O)C(C)(C)C5CCC48C)C2C1':
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 1 failed: non benzene 6-ring has a lone Oxygen left
+mapping section 6 failed: 
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: mapping section 5 failed: non benzene 6-ring has a lone Oxygen left
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non benzene 6-ring has a lone Oxygen left
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 5 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: mapping section 0 failed: 
+Error: failed on largest fragment 'CC1(C)CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC8(C)C(=CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(OS(=O)(=O)O)C(O)C7O)C6O)C(C)(C)C5CCC48C)C2C1':
+1 times Error: Error: failed on largest fragment 'C=C1CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC8(C)C(=CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(OS(=O)(=O)O)C(O)C7O)C6OC9OC(C)C(O)C(O)C9O)C(C)(C)C5CCC48C)C2C1': Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+1 times Error: mapping section 0 failed: non benzene 6-ring has a lone Oxygen left
+[lone‑O] couldn’t map O@44, neighbor beads = ['N6@/kK}=']
+Error: 1-edge non-ring not mappable (non-C)
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 12 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: Ambiguous ring–ring border for atom 40; skipping
+Ambiguous ring–ring border for atom 39; skipping
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: lone atom is next to unmapped atoms
+1 times Error: mapping section 5 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: Non–ring section mapping too complex (foreign/inner connection).
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non–ring section mapping too complex (foreign/inner connection).
+1 times Error: mapping section 9 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.

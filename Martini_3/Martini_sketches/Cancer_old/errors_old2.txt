@@ -1,0 +1,202 @@
+Error summary (counts per exact message):
+22 times Error: Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+6 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+Error: non-benzene 6-ring section has non C/O atom
+5 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+4 times Error: Error: Non‐ring section cannot be mapped: expected 4 branch edge atoms, found 1.
+4 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: S and branches: ['=O', '=O', 'O']).
+3 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: S and branches: ['N', '=O', '=O']).
+2 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: O and branches: ['.=C', '=C', 'O']).
+2 times Error: mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: S and branches: ['C', '=O', '=O']).
+2 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+2 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: unhandled edge count case.
+2 times Error: mapping section 3 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+2 times Error: mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+1 times Error: mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Ring of size 4 is ignored
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CS=O).
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: OBO).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Ring of size 4 is ignored
+Error: Non‐ring section cannot be mapped: unhandled edge count case.
+1 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
+Error: 3-ring not mappable: Found an atom that is not carbon.
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Ring of size 4 is ignored
+Error: Benzene ring section not fully mappable!
+1 times Error: mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['N', '=O', 'OC']).
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Error: Non‐ring section cannot be mapped: unhandled edge count case.
+1 times Error: mapping section 0 failed: Ambiguous ring–ring border: multiple inner neighbors qualify (TODO: handle this case).
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+1 times Error: Error: Non‐ring section with 4 edges does not have an atom with 4 inner connections.
+1 times Error: mapping section 0 failed: Ambiguous ring–ring border: multiple inner neighbors qualify (TODO: handle this case).
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CS=O).
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+Ring of size 4 is ignored
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 3 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+mapping section 3 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: N and branches: ['C', 'C', 'C']).
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 1
+1 times Error: mapping section 2 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: C and branches: ['N', '=O', 'C=C']).
+1 times Error: Error: Non‐ring section cannot be mapped: unexpected number of unmapped atoms in 4‐edge mapping (found 1 in array5).
+1 times Error: Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CLRA).
+1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: N and branches: ['C', 'C', 'C']).
+1 times Error: mapping section 2 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non‐ring section cannot be mapped: no candidate bead found for 3‐edge mapping (center: O and branches: ['.C', '=C', 'O']).
+1 times Error: mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 4 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+mapping section 0 failed: non-benzene 6-ring section has non C/O atom
+mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error: non-benzene 6-ring section has non C/O atom
+1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
+Critical error: Non‐ring section division leads to unassignable sections.
+Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: COO).
+1 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
+Error: Benzene ring section not fully mappable!
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 0 failed: 
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 2 failed: non-benzene 6-ring section has non C/O atom
+ring-ring neighbors connected through only 1 atom, is ignore
+Error:
+1 times Error: Error: Non‐ring section 1‐bead mapping requires 2, 3, or 4 edge atoms; found: 5
+1 times Error: ring-ring neighbors connected through only 1 atom, is ignore
+ring-ring neighbors connected through only 1 atom, is ignore
+mapping section 1 failed: non-benzene 6-ring section has non C/O atom
+Error: non-benzene 6-ring section has non C/O atom

@@ -1,0 +1,38 @@
+name of compound: darolutamide
+Smiles code: C[C@@H](CN1C=CC(=N1)C2=CC(=C(C=C2)C#N)Cl)NC(=O)C3=NNC(=C3)C(C)O
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC2        0,1,2                     C,C,C                     2              
+1        TN1        3                         N                         3              
+2        TC5        4,5                       C,C                       2              
+3        TN6a       6,7                       C,N                       3              
+4        TC5        8,13                      C,C                       3              
+5        SX3        9,10,16                   C,C,Cl                    2              
+6        TC5        11,12                     C,C                       3              
+7        TN4a       14,15                     C,N                       1              
+8        SN4a       17,18,19                  N,C,O                     2              
+9        TN6a       20,21                     C,N                       3              
+10       TN6d       22                        N                         2              
+11       TC5        23,24                     C,C                       3              
+12       SN6        25,26,27                  C,C,O                     1              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+0        8                    1.0       
+1        2                    1.5       
+1        3                    1.5       
+2        3                    1.5       
+3        4                    1.0       
+4        5                    1.5       
+4        6                    1.5       
+5        6                    1.5       
+6        7                    1.0       
+8        9                    1.0       
+9        10                   1.5       
+9        11                   1.5       
+10       11                   1.5       
+11       12                   1.0       

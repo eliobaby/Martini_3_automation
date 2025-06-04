@@ -1,0 +1,18 @@
+name of compound: ortho-METHYLANISOLE
+Smiles code: CC1=CC=CC=C1OC
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        TC4        0,1                       C,C                       2              
+1        TC5        2,3                       C,C                       2              
+2        TC5        4,5                       C,C                       2              
+3        SN2a       6,7,8                     C,O,C                     2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.5       
+0        3                    1.5       
+1        2                    1.5       
+2        3                    1.5       

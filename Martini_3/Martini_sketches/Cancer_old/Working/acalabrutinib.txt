@@ -1,0 +1,41 @@
+name of compound: acalabrutinib
+Smiles code: CC#CC(=O)N1CCC[C@H]1C2=NC(=C3N2C=CN=C3N)C4=CC=C(C=C4)C(=O)NC5=CC=CC=N5
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC6r       0,1,2                     C,C,C                     1              
+1        TN4a       3,4                       C,O                       2              
+2        SN1        5,6,7,8,9                 N,C,C,C,C                 2              
+3        TN6d       10,11                     C,N                       3              
+4        SC4        12,20,21                  C,C,C                     4              
+5        SN6d       13,18,19                  C,C,N                     3              
+6        TN6a       14,15                     N,C                       3              
+7        TN6a       16,17                     C,N                       2              
+8        TC5        22,23                     C,C                       3              
+9        TC5        24,25                     C,C                       2              
+10       SN4a       26,27,28                  C,O,N                     2              
+11       TC5        29,30                     C,C                       3              
+12       TC5        31,32                     C,C                       2              
+13       TN6a       33,34                     C,N                       2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+1        2                    1.0       
+2        3                    1.0       
+3        4                    1.5       
+3        6                    1.5       
+4        5                    1.5       
+4        8                    1.5       
+4        9                    1.5       
+5        6                    1.5       
+5        7                    1.5       
+6        7                    1.5       
+8        9                    1.5       
+8        10                   1.0       
+10       11                   1.0       
+11       12                   1.5       
+11       13                   1.5       
+12       13                   1.5       

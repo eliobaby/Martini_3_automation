@@ -1,0 +1,7 @@
+Logic for Benzene connection, when atoms with neighbors that are too close, algorithm was unable to recognize the match
+Smoothness for cutting 6 and 9 long linear chain -> 4/2, 4/3/2 into 3/3 and 3/3/3
+Fix TC5e case, TC5e is only used for 2 benzene ring, if a benzene ring with another ring, use TC5 instead
+Add new bead types that was not already in the dictionary: TX2, TX3, TC6, TN6d. TX1
+add new rules for 5-ring beads that has double bonds, make them look out for merging with foreign sections of size 1 as well, and treat it as a benzene border section if it has lone foreign atoms
+Add new rules for breaking down non-ring section (complex)
+Add new ring sizes 

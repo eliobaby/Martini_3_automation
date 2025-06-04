@@ -1,0 +1,43 @@
+name of compound: erdafitinib
+Smiles code: CC(C)NCCN(C1=CC2=NC(=CN=C2C=C1)C3=CN(N=C3)C)C4=CC(=CC(=C4)OC)OC
+
+All beads
+--------------------------------------------------------------------------------
+index    bead type  composed of index         composed of element       # of connections
+0        SC2        0,1,2                     C,C,C                     1              
+1        TN4        3,4                       N,C                       2              
+2        TN4        5,6                       C,N                       3              
+3        TC5        7,8                       C,C                       3              
+4        TC5e       9,14                      C,C                       4              
+5        TN6a       10,11                     N,C                       3              
+6        TN6a       12,13                     C,N                       2              
+7        TC5        15,16                     C,C                       2              
+8        TC5        17,18                     C,C                       3              
+9        TN1        19,22                     N,C                       2              
+10       TN6a       20,21                     N,C                       2              
+11       TC5        23,28                     C,C                       3              
+12       TC5        24,26                     C,C                       3              
+13       SN2a       25,31,32                  C,O,C                     1              
+14       SN2a       27,29,30                  C,O,C                     2              
+
+Beads connections
+--------------------------------------------------------------------------------
+index    connection_index     bond type 
+0        1                    1.0       
+1        2                    1.0       
+2        3                    1.0       
+2        11                   1.0       
+3        4                    1.5       
+3        7                    1.5       
+4        5                    1.5       
+4        6                    1.5       
+4        7                    1.5       
+5        6                    1.5       
+5        8                    1.0       
+8        9                    1.5       
+8        10                   1.5       
+9        10                   1.5       
+11       12                   1.5       
+11       14                   1.5       
+12       13                   1.5       
+12       14                   1.5       
