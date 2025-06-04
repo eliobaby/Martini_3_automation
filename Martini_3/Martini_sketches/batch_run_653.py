@@ -72,7 +72,7 @@ def main():
                     txt_lines = tf.readlines()
     
                 # “fake” if any line (after the first 6) has more than 10 commas
-                is_fake = any(line.count(',') > 10 for line in txt_lines[6:])
+                is_fake = any(line.count(',') > 8 for line in txt_lines[6:])
     
                 # 5) Read .itp to classify half‑working
                 itp_path = os.path.join(comp_folder, f"{comp_id}.itp")
