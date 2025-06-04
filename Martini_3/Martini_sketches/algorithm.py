@@ -1961,7 +1961,8 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                         # Use the first outer connection, but instead of using final directly,
                         # look up the foreign section via full_mapping and take its first atom.
                         foreign_sec_index = atom[3][0][0]
-                        foreign_atom = full_mapping[foreign_sec_index][0]  # the first atom in the foreign section
+                        index = atom[3][0][1]
+                        foreign_atom = full_mapping[foreign_sec_index][index]  # the first atom in the foreign section
                         foreign_bead = final[foreign_atom[0]]
                         if foreign_bead.startswith("SX4e"):
                             rstr = generate_random_string()
@@ -2063,7 +2064,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
             raise ValueError(
                 f"Non‐ring section cannot be mapped: ambiguous candidate keys for 3‐edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
             )
-        
+            ''' OLD VERSION KEPT JUST IN CASE
     # CASE 3: 4 edge atoms.
     elif num_edges == 4:
         # Find the center atom that has 4 inner connections.
@@ -2108,6 +2109,142 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                 raise ValueError("Non‐ring section cannot be mapped: remaining atoms are not C and O (found: {}).".format(types))
         else:
             raise ValueError("Non‐ring section cannot be mapped: unexpected number of unmapped atoms in 4‐edge mapping (found {} in array5).".format(len(array5)))
+    '''
+    # CASE 3: 4 edge atoms.
+    elif num_edges == 4:
+        center_local = None
+        for i, atom in enumerate(section):
+            if len(atom[4]) == 4:
+                center_local = i
+                break
+        if center_local is None:
+            raise ValueError("Non‐ring section with 4 edges does not have an atom with 4 inner connections.")
+        total_atoms = len(section)
+        if total_atoms == 6:
+            two_branch = None
+            one_branches = []
+            for (nbr_local, _) in section[center_local][4]:
+                final_edge = get_final_edge(section, center_local, nbr_local)
+                if final_edge is not None:
+                    from collections import deque
+        
+                    def bfs_path(start, end):
+                        visited = {start}
+                        queue = deque([(start, [start])])
+                        while queue:
+                            curr, path = queue.popleft()
+                            if curr == end:
+                                return path
+                            for (nbr, _) in section[curr][4]:
+                                if nbr not in visited:
+                                    visited.add(nbr)
+                                    queue.append((nbr, path + [nbr]))
+                        return []
+        
+                    path = bfs_path(center_local, final_edge)
+                    if len(path) == 3:
+                        two_branch = path   # [center_local, intermediate_local, final_edge]
+                    else:
+                        one_branches.append((center_local, final_edge))
+        
+            if two_branch is None or len(one_branches) != 3:
+                raise ValueError("4-edge 6-atom split: could not identify branches correctly.")
+        
+            _, int_local, edge_local = two_branch
+        
+            # 1) Remove the inner-bond entry from center<->intermediate, but
+            #    “move” it as an outer-connection on `int_local` pointing back to center.
+            #    First, find the bond order between them:
+            bond_to_center = None
+            for (nbr, bo) in section[int_local][4]:
+                if nbr == center_local:
+                    bond_to_center = bo
+                    break
+            # Remove from int_local’s inner list:
+            section[int_local][4] = [
+                (nbr, bo) for (nbr, bo) in section[int_local][4]
+                if nbr != center_local
+            ]
+            # Remove from center_local’s inner list:
+            section[center_local][4] = [
+                (nbr, bo) for (nbr, bo) in section[center_local][4]
+                if nbr != int_local
+            ]
+        
+            # Now “move” that edge into int_local’s outer list. We need the index of this section in full_mapping:
+            sec_idx = full_mapping.index(section)
+            section[int_local][3].append((sec_idx, center_local, bond_to_center))
+        
+            # 2) Build sub2 = [center_local] + three single leaves, recurse on sub2 first.
+            sub2_locals = [center_local] + [loc for (_, loc) in one_branches]
+            sub2 = [section[i] for i in sub2_locals]
+            # Mark only the three leaf nodes as edges; center_local stays isedge=False.
+            for (_, leaf_loc) in one_branches:
+                section[leaf_loc][5] = True
+            sub2_reindexed = reindex_section(sub2, sub2_locals)
+            final = map_non_ring_section_1bead(sub2_reindexed, final, martini_dict, full_mapping)
+        
+            # 3) Now build sub1 = [int_local, edge_local], recurse on sub1.
+            #    int_local already has [3] updated to list its outer = center.
+            section[int_local][5] = True
+            section[edge_local][5] = True
+            sub1_locals = [int_local, edge_local]
+            sub1 = [section[i] for i in sub1_locals]
+            sub1_reindexed = reindex_section(sub1, sub1_locals)
+            final = map_non_ring_section_1bead(sub1_reindexed, final, martini_dict, full_mapping)
+        
+            return final
+
+        # Part 2: if section has 5 atoms, treat like 3-edge but with val[1]==2
+        elif total_atoms == 5:
+            # All four neighbors of center are direct edges
+            branch_paths = []
+            for (nbr, _) in section[center_local][4]:
+                if section[nbr][5]:
+                    branch_str = trace_branch(section, center_local, nbr)
+                    branch_paths.append(branch_str)
+            if len(branch_paths) != 4:
+                raise ValueError(f"Non‐ring 4-edge 5-atom mapping: expected 4 branches, found {len(branch_paths)}.")
+            import re
+            candidate_keys = []
+            for key, val in martini_dict.items():
+                if val[0] == 7 and val[1] == 2 and "(" in val[2]:
+                    prefix, remainder = val[2].split("(", 1)
+                    if prefix.strip() != section[center_local][1]:
+                        continue
+                    branch_segments = re.findall(r'\(([^)]+)\)', val[2])
+                    if len(branch_segments) != len(branch_paths):
+                        continue
+                    unmatched = branch_segments.copy()
+                    matched_all = True
+                    for bp in branch_paths:
+                        for bs in list(unmatched):
+                            if bp == bs:
+                                unmatched.remove(bs)
+                                break
+                        else:
+                            matched_all = False
+                            break
+                    if val[4] == "." and len(unmatched) <= 2:
+                        candidate_keys.append(key)
+                    if matched_all:
+                        candidate_keys.append(key)
+            candidate_keys = list(set(candidate_keys))
+            if len(candidate_keys) == 1:
+                rstr = generate_random_string()
+                for atom in section:
+                    final[atom[0]] = candidate_keys[0] + rstr
+                return final
+            elif not candidate_keys:
+                raise ValueError(
+                    f"Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
+                )
+            else:
+                raise ValueError(
+                    f"Non‐ring section cannot be mapped: ambiguous candidate keys for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
+                )
+        else:
+            raise ValueError(f"Non‐ring 4-edge mapping only supported for 5 or 6 atoms; found {total_atoms}.")
 
     # CASE 4: 5 or 6 edge atoms.
     elif num_edges > 4:
