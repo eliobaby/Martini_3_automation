@@ -6,7 +6,7 @@ res           1
 ;    nr  type resnr resid  atom  cgnr     charge       mass
       1 SN6       1 res   C1        1      0.000     54.000
       2 TC5       1 res   C2        2      0.000     36.000
-      3 X4e       1 res   C3        3      0.000     72.000
+      3 SX4e      1 res   C3        3      0.000     54.000
       4 TC5       1 res   C4        4      0.000     36.000
 
 [ bonds ]

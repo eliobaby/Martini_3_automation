@@ -1,0 +1,11 @@
+Compound: 557-98-2
+SMILES:   C=C(C)Cl
+
+All beads
+--------------------------------------------------------------------------------
+index    bead_type  atoms_idx            atoms_elem           #conns       mass     x        y        z       
+0        SX3?       0,1,2,3              C,C,C,Cl             0            54.0     0.0274   -0.0406  0.0328  
+
+Bead connections
+--------------------------------------------------------------------------------
+index    to_idx   bond    
