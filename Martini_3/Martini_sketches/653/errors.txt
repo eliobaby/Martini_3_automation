@@ -25,25 +25,21 @@ Error: non-benzene 6-ring section has non C/O atom
 Error: 1-edge non-ring still not mappable
 1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
 Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCOC=O).
-1 times Error: [lone‑O] couldn’t map O@6, neighbor beads = ['N6CT8<lj']
+1 times Error: [lone‑O] couldn’t map O@6, neighbor beads = ['N6&bavZV']
 Error: 1-edge non-ring not mappable (non-C)
 1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
 Error: lone atom is next to unmapped atoms
 1 times Error: Error: Need exactly 2 centers to split; found 1
-1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ["TN6aE(E'nI"]
-Error: 1-edge non-ring not mappable (non-C)
-1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ["TN6ab$'q9{"]
-Error: 1-edge non-ring not mappable (non-C)
-1 times Error: [lone‑O] couldn’t map O@6, neighbor beads = ['N6a:,%z,~']
+1 times Error: [lone‑O] couldn’t map O@6, neighbor beads = ['N6a`dPt1w']
 Error: 1-edge non-ring not mappable (non-C)
 1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
 Critical error: Non‐ring section division leads to unassignable sections.
 Critical error: Non‐ring section division leads to unassignable sections.
 Error: 1-edge non-ring not mappable (non-C)
 1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
-[lone‑O] couldn’t map O@6, neighbor beads = ['SN6ak7?"Pg']
+[lone‑O] couldn’t map O@6, neighbor beads = ['SN6adM5mQ\\']
 Error: 1-edge non-ring not mappable (non-C)
-1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN1nb?]RA']
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN1v,v<_@']
 Error: 1-edge non-ring not mappable (non-C)
 1 times Error: mapping section 0 failed: 3-ring not mappable: Found an atom that is not carbon.
 mapping section 1 failed: 3-ring not mappable: Found an atom that is not carbon.
@@ -58,14 +54,8 @@ Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge map
 Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCCCC).
 1 times Error: Critical error: Non‐ring section division leads to unassignable sections.
 Error: Non-ring section cannot be mapped: no candidate bead found for 2-edge mapping (path: CCNCC).
-1 times Error: [lone‑O] couldn’t map O@0, neighbor beads = ['TN6aYy,.To']
-Error: 1-edge non-ring not mappable (non-C)
-1 times Error: [lone‑O] couldn’t map O@2, neighbor beads = ['TN6az7ILV^']
-Error: 1-edge non-ring not mappable (non-C)
 1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: Cl and branches: ['C', 'Cl', 'Cl', '']).
 1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
 mapping section 0 failed: 2 size‑1 neighbors incompatible for central C
 mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
 Error: 2 size‑1 neighbors incompatible for central C
-1 times Error: [lone‑O] couldn’t map O@11, neighbor beads = ['TN6a&;5B4u']
-Error: 1-edge non-ring not mappable (non-C)

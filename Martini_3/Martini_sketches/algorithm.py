@@ -1838,7 +1838,16 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                                     final[j] = new_bead
                             return final
                     break  # if base matched but CA wasn’t C, skip to fallback
-
+            # Case 7: TN6a
+            if 'TN6a' in stripped:
+                i = stripped.index('TN6a')
+                bead_tag = neighbor_beads[i]
+                new_bead = 'SN4a' + generate_random_string()
+                final[gi] = new_bead
+                for j, v in enumerate(final):
+                    if v == bead_tag:
+                        final[j] = new_bead
+                return final
             # nothing matched
             print(f"[lone‑O] couldn’t map O@{gi}, neighbor beads = {neighbor_beads}")
             raise ValueError("1-edge non-ring not mappable (non-C)")
