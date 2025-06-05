@@ -2224,7 +2224,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                                 break
                         else:
                             matched_all = False
-                            break
+                            continue
                     if val[4] == "." and len(unmatched) <= 2:
                         candidate_keys.append(key)
                     if matched_all:
