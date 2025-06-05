@@ -2227,6 +2227,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                             continue
                     if val[4] == "." and len(unmatched) <= 2:
                         candidate_keys.append(key)
+                        break
                     if matched_all:
                         candidate_keys.append(key)
             candidate_keys = list(set(candidate_keys))
@@ -2236,9 +2237,47 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                     final[atom[0]] = candidate_keys[0] + rstr
                 return final
             elif not candidate_keys:
-                raise ValueError(
-                    f"Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
+                warnings.warn(
+                    f"Warning: falling back to section 11 for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})",
+                    UserWarning
                 )
+                for key, val in martini_dict.items():
+                    if val[0] == 11 and val[1] == 2 and "(" in val[2]:
+                        prefix, remainder = val[2].split("(", 1)
+                        if prefix.strip() != section[center_local][1]:
+                            continue
+                        branch_segments = re.findall(r'\(([^)]+)\)', val[2])
+                        if len(branch_segments) != len(branch_paths):
+                            continue
+                        unmatched = branch_segments.copy()
+                        matched_all = True
+                        for bp in branch_paths:
+                            for bs in list(unmatched):
+                                if bp == bs:
+                                    unmatched.remove(bs)
+                                    break
+                            else:
+                                matched_all = False
+                                continue
+                        if val[4] == "." and len(unmatched) <= 2:
+                            candidate_keys.append(key)
+                            break
+                        if matched_all:
+                            candidate_keys.append(key)
+                candidate_keys = list(set(candidate_keys))
+                if len(candidate_keys) == 1:
+                    rstr = generate_random_string()
+                    for atom in section:
+                        final[atom[0]] = candidate_keys[0] + rstr
+                    return final
+                elif not candidate_keys:
+                    raise ValueError(
+                        f"Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
+                    )
+                else:
+                    raise ValueError(
+                        f"Non‐ring section cannot be mapped: ambiguous candidate keys for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."
+                    )
             else:
                 raise ValueError(
                     f"Non‐ring section cannot be mapped: ambiguous candidate keys for 4-edge mapping (center: {section[center_local][1]} and branches: {branch_paths})."

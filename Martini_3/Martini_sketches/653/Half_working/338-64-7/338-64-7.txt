@@ -1,0 +1,11 @@
+Compound: 338-64-7
+SMILES:   FCC(F)Cl
+
+All beads
+--------------------------------------------------------------------------------
+index    bead_type  atoms_idx            atoms_elem           #conns       mass     x        y        z       
+0        X4e?       0,1,2,3,4            F,C,C,F,Cl           0            72.0     0.0246   0.0229   -0.0411 
+
+Bead connections
+--------------------------------------------------------------------------------
+index    to_idx   bond    
