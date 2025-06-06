@@ -39,7 +39,10 @@ def pick_bead_key(martini_dict: Dict[str, List[Any]],
 
     for key, val in martini_dict.items():
         if not key.startswith(kind):
-            continue
+            if key.startswith('X') and kind == "S":
+                key
+            else:
+                continue
         if val[0] != 2:
             continue
         # val[2] is something like 'CC(O)' or 'C(Cl)' or 'CC(=O)'
@@ -317,7 +320,6 @@ def map_benzene_ring_section(section: List[List[Any]],
 
     # ---------------------- Step 5: array2 remains from array1 pairing ----------------------
     # (array2 holds atoms that could not be paired from array1.)
-
     # ---------------------- Step 6: Build array3 ----------------------
     # For every atom with an outer connection (index3 non-empty) that is still unmapped,
     # and for at least one outer connection the foreign atom (in full_mapping) has section type 0 and the foreign section has length 1.
@@ -331,7 +333,6 @@ def map_benzene_ring_section(section: List[List[Any]],
                 if foreign_atom[2] == 0 and len(foreign_sec) == 1 and final[foreign_atom[0]] == "":
                     array3.append(atom[0])
                     break
-
     # ---------------------- Step 7: Process array3 ----------------------
     # For every atom in array3, check inner connections for neighbors that satisfy:
     # either the neighbor is in array2 OR has an outer connection to a section that meets one of the following:
@@ -537,7 +538,6 @@ def map_benzene_ring_section(section: List[List[Any]],
         elif 'n' in (atom1[1].lower(), atom2[1].lower()):
             final[pair[0]] = "TN6a" + rstr
             final[pair[1]] = "TN6a" + rstr
-
     # ---------------------- Final Check ----------------------
     for atom in section:
         if final[atom[0]] == "":
@@ -1849,7 +1849,6 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                         final[j] = new_bead
                 return final
             # nothing matched
-            print(final)
             print(f"[lone‑O] couldn’t map O@{gi}, neighbor beads = {neighbor_beads}")
             raise ValueError("1-edge non-ring not mappable (non-C)")
         # convert T* to S*
@@ -2871,30 +2870,45 @@ def map_nonbenzene_3_ring_section(section: List[List[Any]],
                                   martini_dict: Dict[str, List[Any]]) -> List[str]:
     """
     TASK 3.h.a: Map a non-benzene 3-membered ring section.
-    
-    For now, trace the atoms in the section and if they are all carbon atoms 
+
+    For now, trace the atoms in the section and if they are all carbon atoms
     with exactly two inner connections and every inner bond has order 1,
     assign the bead "SC3" + random string to each atom in the section.
-    Otherwise, throw an error indicating that the 3-ring is not mappable.
+    Otherwise, if exactly one atom is oxygen (and the other two are carbon,
+    with the same inner‐bond criteria), assign "SN3a" + random string to all
+    atoms in the section. Otherwise, throw an error indicating that the
+    3-ring is not mappable.
     """
-    # Check that every atom is carbon, has exactly 2 inner connections, and that each bond is 1.
+
+    # Count how many are oxygen vs. carbon
+    o_count = sum(1 for atom in section if atom[1].upper() == "O")
+    c_count = sum(1 for atom in section if atom[1].upper() == "C")
+
+    # Verify inner‐bond structure: every atom must have exactly 2 inner connections,
+    # and each bond must be order 1.
     for atom in section:
-        # Verify atom is carbon.
-        if atom[1].upper() != "C":
-            raise ValueError("3-ring not mappable: Found an atom that is not carbon.")
-        # Verify there are exactly 2 inner connections.
         if len(atom[4]) != 2:
             raise ValueError("3-ring not mappable: Expected exactly 2 inner connections per atom.")
-        # Verify that each inner connection has a bond order of 1.
-        for (nbr, bond) in atom[4]:
+        for (_, bond) in atom[4]:
             if bond != 1:
                 raise ValueError("3-ring not mappable: Found an inner bond order not equal to 1.")
-    
-    # All atoms passed the checks.
-    bead = "SC3" + generate_random_string()
-    for atom in section:
-        final[atom[0]] = bead
-    return final
+
+    # Case A: All three are carbon → SC3
+    if o_count == 0 and c_count == 3:
+        bead = "SC3" + generate_random_string()
+        for atom in section:
+            final[atom[0]] = bead
+        return final
+
+    # Case B: Exactly one oxygen and two carbons → SN3a
+    if o_count == 1 and c_count == 2:
+        bead = "SN4a" + generate_random_string()
+        for atom in section:
+            final[atom[0]] = bead
+        return final
+
+    # Otherwise, cannot map
+    raise ValueError("3-ring not mappable: Element composition not supported.")
 
 # =============================================================================
 # TASK 3.h.b: Map Non-Benzene 4-Ring Section
