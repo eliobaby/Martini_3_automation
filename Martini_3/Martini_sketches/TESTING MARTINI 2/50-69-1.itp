@@ -1,0 +1,29 @@
+; GENERATED WITH auto_Martini v0.2.1 for 50-69-1
+; Developed by: Kiran Kanekal, Tristan Bereau, and Andrew Abi-Mansour
+
+[moleculetype]
+; molname       nrexcl
+  50-69-1         2
+
+[atoms]
+; id    type    resnr   residue  atom    cgnr    charge  smiles
+    1     P3      1     50-69-1     P01     1         0   ; CO
+    2     SP1     1     50-69-1     S01     2         0   ; OC1CCOC1
+    3     P3      1     50-69-1     P02     3         0   ; CO
+    4     SP1     1     50-69-1     S02     4         0   ; OC1CCCO1
+
+[bonds]
+; i j     funct     length    force.c.
+  1 2       1         0.26     1250
+  2 3       1         0.24     1250
+
+[constraints]
+;  i   j     funct   length
+   2   4     1       0.24
+
+[angles]
+; i j k         funct   angle   force.c.
+  1 2 3         2       134.0   25.0
+  1 2 4         2       90.5    25.0
+  3 2 4         2       61.4    25.0
+

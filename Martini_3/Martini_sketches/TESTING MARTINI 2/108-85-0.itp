@@ -1,0 +1,25 @@
+; GENERATED WITH auto_Martini v0.2.1 for 108-85-0
+; Developed by: Kiran Kanekal, Tristan Bereau, and Andrew Abi-Mansour
+
+[moleculetype]
+; molname       nrexcl
+  108-85-0         2
+
+[atoms]
+; id    type    resnr   residue  atom    cgnr    charge  smiles
+    1     N0      1     108-85-0     N01     1         0   ; CBr
+    2     SC2     1     108-85-0     S01     2         0   ; C1CCCCC1
+    3     SC2     1     108-85-0     S02     3         0   ; C1CCCCC1
+
+[bonds]
+; i j     funct     length    force.c.
+  1 2       1         0.29     1250
+
+[constraints]
+;  i   j     funct   length
+   2   3     1       0.26
+
+[angles]
+; i j k         funct   angle   force.c.
+  1 2 3         2       63.6    25.0
+

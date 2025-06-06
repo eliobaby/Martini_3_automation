@@ -1,0 +1,25 @@
+; GENERATED WITH auto_Martini v0.2.1 for 7491-74-9
+; Developed by: Kiran Kanekal, Tristan Bereau, and Andrew Abi-Mansour
+
+[moleculetype]
+; molname       nrexcl
+  7491-74-9         2
+
+[atoms]
+; id    type    resnr   residue  atom    cgnr    charge  smiles
+    1     P2      1     7491-74-9     P01     1         0   ; CC(N)=O
+    2     SP1     1     7491-74-9     S01     2         0   ; C1CCNC1
+    3     SP2     1     7491-74-9     S02     3         0   ; O=C1CCCN1
+
+[bonds]
+; i j     funct     length    force.c.
+  1 3       1         0.32     1250
+
+[constraints]
+;  i   j     funct   length
+   2   3     1       0.23
+
+[angles]
+; i j k         funct   angle   force.c.
+  1 3 2         2       78.2    45.0
+

@@ -17,7 +17,7 @@ res           1
      11 TC4       1 res   C11      11      0.000     36.000
      12 TC3       1 res   C12      12      0.000     36.000
      13 SC4       1 res   C13      13      0.000     54.000
-     14 TN2a      1 res   C14      14      0.000     36.000
+     14 TP1d      1 res   C14      14      0.000     36.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k

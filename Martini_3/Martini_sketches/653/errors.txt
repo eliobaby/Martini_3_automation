@@ -1,5 +1,4 @@
 Error summary (counts per exact message):
-25 times Error: Error: 1-edge non-ring not mappable (non-C)
 16 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
 mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: Non-benzene 5-ring section not fully mappable!
@@ -8,7 +7,6 @@ Error: non-benzene 6-ring section has non C/O atom
 4 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
-4 times Error: Error: Final mapping incomplete; some atoms remain unmapped!
 3 times Error: mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
 3 times Error: mapping section 0 failed: Benzene ring section not fully mappable!
@@ -20,18 +18,18 @@ mapping section 1 failed as a 5-ring section, attempt as if it is a 6-ring secti
 mapping section 1 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
 1 times Error: Error: Need exactly 2 centers to split; found 1
-1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
-[lone‑O] couldn’t map O@6, neighbor beads = ['SN6aEv{MH,']
-[lone‑O] couldn’t map O@6, neighbor beads = ['SN6a$k{,--']
-Error: 1-edge non-ring not mappable (non-C)
-1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN1Mlg=%f']
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN139G_>j']
 mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
 1 times Error: Error: lone atom is next to unmapped atoms
 1 times Error: mapping section 0 failed: 3-ring not mappable: Found an inner bond order not equal to 1.
 mapping section 0 failed: 3-ring not mappable: Found an inner bond order not equal to 1.
 Error: 3-ring not mappable: Found an inner bond order not equal to 1.
+1 times Error: mapping section 0 failed: Non-benzene 6-ring: no singleton C neighbor for count=5
+mapping section 0 failed: Non-benzene 6-ring: no singleton C neighbor for count=5
+Error: Non-benzene 6-ring: no singleton C neighbor for count=5
 1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: Cl and branches: ['C', 'Cl', 'Cl', '']).
+1 times Error: Error: 1-edge non-ring not mappable (non-C)
 1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
 mapping section 0 failed: 2 size‑1 neighbors incompatible for central C
 mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.

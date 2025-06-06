@@ -1,0 +1,25 @@
+; GENERATED WITH auto_Martini v0.2.1 for 541-79-7
+; Developed by: Kiran Kanekal, Tristan Bereau, and Andrew Abi-Mansour
+
+[moleculetype]
+; molname       nrexcl
+  541-79-7         2
+
+[atoms]
+; id    type    resnr   residue  atom    cgnr    charge  smiles
+    1     C4      1     541-79-7     C01     1         0   ; ClC(Cl)Cl
+    2     P3      1     541-79-7     P01     2         0   ; CO
+    3     P2      1     541-79-7     P02     3         0   ; NC(O)=O
+    4     C5      1     541-79-7     C02     4         0   ; CC
+
+[bonds]
+; i j     funct     length    force.c.
+  1 2       1         0.24     1250
+  2 3       1         0.36     1250
+  3 4       1         0.25     1250
+
+[angles]
+; i j k         funct   angle   force.c.
+  1 2 3         2       68.3    25.0
+  2 3 4         2       160.0   45.0
+

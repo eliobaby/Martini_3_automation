@@ -697,22 +697,8 @@ def map_nonbenzene_6_ring_section(
             # find qualifying foreign connections on each
             cand_qual  = [x for x in atom[3]     if qualifies_foreign(x)]
             neigh_qual = [x for x in neighbor[3] if qualifies_foreign(x)]
-    
-            # Case D1: exactly one side qualifies
-            if len(cand_qual) == 1 or len(neigh_qual) == 1:
-                fc = cand_qual[0] if len(cand_qual) == 1 else neigh_qual[0]
-                foreign = get_foreign_info(fc)
-                key = pick_bead_key(martini_dict,
-                                    foreign[1].upper(),
-                                    bond_order,
-                                    kind='S')
-                bead = (key + generate_random_string()) if key else ''
-                final[a_idx] = bead
-                final[b_idx] = bead
-                final[foreign[0]] = bead
-    
-            # Case D2: both sides qualify
-            elif len(cand_qual) == 1 and len(neigh_qual) == 1:
+            # Case D1: both sides qualify
+            if len(cand_qual) == 1 and len(neigh_qual) == 1:
                 fa = get_foreign_info(cand_qual[0])
                 fb = get_foreign_info(neigh_qual[0])
                 key1 = pick_bead_key(martini_dict, fa[1].upper(), bond_order, kind='T')
@@ -723,6 +709,19 @@ def map_nonbenzene_6_ring_section(
                 final[fa[0]] = bead1
                 final[b_idx] = bead2
                 final[fb[0]] = bead2
+                
+            # Case D2: exactly one side qualifies
+            elif len(cand_qual) == 1 or len(neigh_qual) == 1:
+                fc = cand_qual[0] if len(cand_qual) == 1 else neigh_qual[0]
+                foreign = get_foreign_info(fc)
+                key = pick_bead_key(martini_dict,
+                                    foreign[1].upper(),
+                                    bond_order,
+                                    kind='S')
+                bead = (key + generate_random_string()) if key else ''
+                final[a_idx] = bead
+                final[b_idx] = bead
+                final[foreign[0]] = bead
     
             # Case D3: neither side qualifies – choose bead type based on atom types
             else:
@@ -826,9 +825,8 @@ def map_nonbenzene_6_ring_section(
                             nf_tups = [x for x in nbr[3]
                                        if qualifies_foreign(x) and final[full_mapping[x[0]][x[1]][0]] == ""]
                             # include if neighbor is C and not inner_unmapped, with tuple rules
-                            if nbr[1].upper() == 'C' and not inner_unmapped:
-                                if len(nf_tups) == 1 or (len(nbr[3]) == 2 and len(nf_tups) == 0) or len(nf_tups) == 0:
-                                    array1.append(nbr)
+                            if nbr[1].upper() == 'C' and not inner_unmapped and not nf_tups:
+                                array1.append(nbr)
                     # map based on how many neighbors found
                     if len(array1) == 0:
                         rstr = generate_random_string()
@@ -848,7 +846,34 @@ def map_nonbenzene_6_ring_section(
                         final[foreign_atom[0]] = bead
                     elif len(array1) == 2:
                         if i == 1:
-                            raise ValueError("Non–ring section mapping too complex (foreign/inner connection).")
+                            # We have two candidate inner‐neighbors in array1.  Pick one whose
+                            # inner neighbors do NOT already carry a “T”-bead in final[].  If both
+                            # are already “tethered” to a T‐bead, just pick the first.
+                            chosen = None
+                            for nbr in array1:
+                                # collect all of nbr’s inner‐neighbor globals
+                                inner_globals = [ section[t2[0]][0] for t2 in nbr[4] ]
+                                # check if any of those already has a “T” bead
+                                if not any(final[g].startswith("T") for g in inner_globals if final[g] != ""):
+                                    chosen = nbr
+                                    break
+                            if chosen is None:
+                                chosen = array1[0]
+                    
+                            # Now do exactly what the len(array1)==1 case does:
+                            rstr = generate_random_string()
+                            bond_order = primary[2]
+                            key = pick_bead_key(
+                                martini_dict,
+                                foreign_atom[1].upper(),
+                                bond_order,
+                                kind="S"
+                            )
+                            bead = (key + rstr) if key else ""
+                            # assign the triple‐atom bead: ring‐atom, chosen inner neighbor, and foreign
+                            final[ atom[0] ]       = bead
+                            final[ chosen[0] ]     = bead
+                            final[ foreign_atom[0] ] = bead
     # --- Step C.5: Special catch‐all for any unmapped inner atom that is not C or O,
     #                 but has a single‐sized non‑ring (section 0) foreign neighbor which is C.
     #                 Map both atoms to a T‐type bead (bond order = 1).
@@ -928,7 +953,7 @@ def map_nonbenzene_6_ring_section(
             if final[atom[0]] != "":
                 continue
             nbrs = [section[t[0]] for t in atom[4]
-                    if final[ section[t[0]][0] ] == ""]
+                    if final[ section[t[0]][0] ] != ""]
             if len(nbrs) == 1 and nbrs[0][1].upper() == 'C':
                 cand = (atom, nbrs[0]); break
         if not cand:
@@ -940,6 +965,8 @@ def map_nonbenzene_6_ring_section(
         new_bead = old_bead
         if new_bead.startswith('T'):
             new_bead = 'S' + new_bead[1:]
+        else:
+            raise ValueError("Non-benzene 6-ring: C neighbor next to no T beads")
         for i in targets:
             final[i] = new_bead
         final[atom[0]] = new_bead
