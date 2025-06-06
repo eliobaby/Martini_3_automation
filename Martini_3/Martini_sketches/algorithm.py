@@ -1849,6 +1849,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                         final[j] = new_bead
                 return final
             # nothing matched
+            print(final)
             print(f"[lone‑O] couldn’t map O@{gi}, neighbor beads = {neighbor_beads}")
             raise ValueError("1-edge non-ring not mappable (non-C)")
         # convert T* to S*
@@ -1976,17 +1977,17 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                         if foreign_bead.startswith("SX4e"):
                             rstr = generate_random_string()
                             for a in section:
-                                final[a[0]] = candidate_keys[0] + rstr
+                                final[a[0]] = candidate_keys[1] + rstr
                             return final
                         else:
                             rstr = generate_random_string()
                             for a in section:
-                                final[a[0]] = candidate_keys[1] + rstr
+                                final[a[0]] = candidate_keys[0] + rstr
                             return final
                     else:
                         rstr = generate_random_string()
                         for a in section:
-                            final[a[0]] = candidate_keys[1] + rstr
+                            final[a[0]] = candidate_keys[0] + rstr
                         return final
     # CASE 2: 3 edge atoms.
     elif num_edges == 3:
@@ -2417,7 +2418,6 @@ def map_non_ring_section_1bead(section: List[List[Any]],
             )
         return final
     # Should not be reached.
-    print(final)
     raise ValueError("Non‐ring section cannot be mapped: unhandled edge count case.")
     return final
 
@@ -2914,77 +2914,134 @@ def map_martini_beads(mapping: List[List[List[Any]]],
     """
     Two-pass ring handling + then non-ring sections.
     """
-    skipped = []
-
-    # --- PASS 1: Benzene rings (type 2) ---
-    for idx, section in enumerate(mapping):
-        if section and section[0][2] == 2 and any(final[a[0]] == "" for a in section):
-            try:
-                new_final = map_benzene_ring_section(section, final.copy(), martini_dict, mapping)
-                final = new_final
-            except Exception as e:
-                # record for second pass
-                print(f"mapping section {idx} failed:", e)
-                skipped.append(("benzene", idx))
-
-    # --- PASS 1: Non-benzene rings (type 1) ---
-    for idx, section in enumerate(mapping):
-        if section and section[0][2] == 1 and any(final[a[0]] == "" for a in section):
-            size = len(section)
-            try:
+    final2 = final
+    try:
+        skipped = []
+    
+        # --- PASS 1: Benzene rings (type 2) ---
+        for idx, section in enumerate(mapping):
+            if section and section[0][2] == 2 and any(final[a[0]] == "" for a in section):
+                try:
+                    new_final = map_benzene_ring_section(section, final.copy(), martini_dict, mapping)
+                    final = new_final
+                except Exception as e:
+                    # record for second pass
+                    print(f"mapping section {idx} failed:", e)
+                    skipped.append(("benzene", idx))
+    
+        # --- PASS 1: Non-benzene rings (type 1) ---
+        for idx, section in enumerate(mapping):
+            if section and section[0][2] == 1 and any(final[a[0]] == "" for a in section):
+                size = len(section)
+                try:
+                    if size == 6:
+                        new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    elif size == 5:
+                        try:
+                            new_final = map_nonbenzene_5_ring_section(section, final.copy(), martini_dict, mapping)
+                        except Exception as e:
+                            print(f"mapping section {idx} failed as a 5-ring section, attempt as if it is a 6-ring section:", e)
+                            new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    elif size == 4:
+                        new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    elif size == 3:
+                        new_final = map_nonbenzene_3_ring_section(section, final.copy(), martini_dict)
+                    else:
+                        raise ValueError(f"Unexpected non-benzene ring size {size}")
+                    final = new_final
+                except Exception as e:
+                    print(f"mapping section {idx} failed:", e)
+                    skipped.append(("nonbenzene", idx))
+    
+        # --- PASS 2: Retry skipped ---
+        for sect_type, idx in skipped:
+            section = mapping[idx]
+            if sect_type == "benzene":
+                final = map_benzene_ring_section(section, final, martini_dict, mapping)
+            else:
+                size = len(section)
                 if size == 6:
-                    new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    final = map_nonbenzene_6_ring_section(section, final, martini_dict, mapping)
                 elif size == 5:
                     try:
                         new_final = map_nonbenzene_5_ring_section(section, final.copy(), martini_dict, mapping)
+                        final = new_final
                     except Exception as e:
                         print(f"mapping section {idx} failed as a 5-ring section, attempt as if it is a 6-ring section:", e)
                         new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                        final = new_final
                 elif size == 4:
-                    new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    final = map_nonbenzene_6_ring_section(section, final, martini_dict, mapping)
                 elif size == 3:
-                    new_final = map_nonbenzene_3_ring_section(section, final.copy(), martini_dict)
-                else:
-                    raise ValueError(f"Unexpected non-benzene ring size {size}")
-                final = new_final
-            except Exception as e:
-                print(f"mapping section {idx} failed:", e)
-                skipped.append(("nonbenzene", idx))
-
-    # --- PASS 2: Retry skipped ---
-    for sect_type, idx in skipped:
-        section = mapping[idx]
-        if sect_type == "benzene":
-            final = map_benzene_ring_section(section, final, martini_dict, mapping)
-        else:
-            size = len(section)
-            if size == 6:
-                final = map_nonbenzene_6_ring_section(section, final, martini_dict, mapping)
-            elif size == 5:
+                    final = map_nonbenzene_3_ring_section(section, final, martini_dict)
+        # --- Then the non-ring sections as before ---
+        i = 0
+        while i < len(mapping):
+            section = mapping[i]
+            if section and section[0][2] == 0:
+                # keep going until every atom in this section is filled
+                while any(final[a[0]] == "" for a in section):
+                    if is_non_ring_section_1bead_mappable(section):
+                        final = map_non_ring_section_1bead(section, final, martini_dict, mapping)
+                    else:
+                        final, mapping = map_non_ring_section_long(section, final, martini_dict, mapping, i)
+                        section = mapping[i]
+            i += 1
+    except Exception:
+        final = final2
+        skipped = []
+    
+        # --- PASS 1: Benzene rings (type 2) ---
+        for idx, section in enumerate(mapping):
+            if section and section[0][2] == 2 and any(final[a[0]] == "" for a in section):
                 try:
-                    new_final = map_nonbenzene_5_ring_section(section, final.copy(), martini_dict, mapping)
+                    new_final = map_benzene_ring_section(section, final.copy(), martini_dict, mapping)
                     final = new_final
                 except Exception as e:
-                    print(f"mapping section {idx} failed as a 5-ring section, attempt as if it is a 6-ring section:", e)
-                    new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    # record for second pass
+                    print(f"mapping section {idx} failed:", e)
+                    skipped.append(("benzene", idx))
+    
+        # --- PASS 1: Non-benzene rings (type 1) ---
+        for idx, section in enumerate(mapping):
+            if section and section[0][2] == 1 and any(final[a[0]] == "" for a in section):
+                size = len(section)
+                try:
+                    if size == 6 or size == 5 or size == 4:
+                        new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
+                    elif size == 3:
+                        new_final = map_nonbenzene_3_ring_section(section, final.copy(), martini_dict)
+                    else:
+                        raise ValueError(f"Unexpected non-benzene ring size {size}")
                     final = new_final
-            elif size == 4:
-                new_final = map_nonbenzene_6_ring_section(section, final.copy(), martini_dict, mapping)
-            elif size == 3:
-                final = map_nonbenzene_3_ring_section(section, final, martini_dict)
-    # --- Then the non-ring sections as before ---
-    i = 0
-    while i < len(mapping):
-        section = mapping[i]
-        if section and section[0][2] == 0:
-            # keep going until every atom in this section is filled
-            while any(final[a[0]] == "" for a in section):
-                if is_non_ring_section_1bead_mappable(section):
-                    final = map_non_ring_section_1bead(section, final, martini_dict, mapping)
-                else:
-                    final, mapping = map_non_ring_section_long(section, final, martini_dict, mapping, i)
-                    section = mapping[i]
-        i += 1
+                except Exception as e:
+                    print(f"mapping section {idx} failed:", e)
+                    skipped.append(("nonbenzene", idx))
+    
+        # --- PASS 2: Retry skipped ---
+        for sect_type, idx in skipped:
+            section = mapping[idx]
+            if sect_type == "benzene":
+                final = map_benzene_ring_section(section, final, martini_dict, mapping)
+            else:
+                size = len(section)
+                if size == 6 or size == 5 or size == 4:
+                    final = map_nonbenzene_6_ring_section(section, final, martini_dict, mapping)
+                elif size == 3:
+                    final = map_nonbenzene_3_ring_section(section, final, martini_dict)
+        # --- Then the non-ring sections as before ---
+        i = 0
+        while i < len(mapping):
+            section = mapping[i]
+            if section and section[0][2] == 0:
+                # keep going until every atom in this section is filled
+                while any(final[a[0]] == "" for a in section):
+                    if is_non_ring_section_1bead_mappable(section):
+                        final = map_non_ring_section_1bead(section, final, martini_dict, mapping)
+                    else:
+                        final, mapping = map_non_ring_section_long(section, final, martini_dict, mapping, i)
+                        section = mapping[i]
+            i += 1
     # sanity check
     if any(name == "" for name in final):
         raise ValueError("Final mapping incomplete; some atoms remain unmapped!")
