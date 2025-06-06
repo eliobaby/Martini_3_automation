@@ -2126,8 +2126,68 @@ def map_non_ring_section_1bead(section: List[List[Any]],
             if len(atom[4]) == 4:
                 center_local = i
                 break
+        # 2) If no 4-connected center, look for exactly two atoms each with 3 inner bonds,
+        #    of which exactly 2 neighbors are currently flagged as edges. Split those off.
         if center_local is None:
-            raise ValueError("Non‐ring section with 4 edges does not have an atom with 4 inner connections.")
+            three_centers = []
+            for i, atom in enumerate(section):
+                if len(atom[4]) == 3:
+                    edge_nbrs = [nbr for (nbr, _) in atom[4] if section[nbr][5]]
+                    if len(edge_nbrs) == 2:
+                        three_centers.append((i, edge_nbrs))
+            if len(three_centers) == 2:
+                # Unpack the two 3-connected centers
+                (c1, edges1), (c2, edges2) = three_centers
+
+                def build_and_assign(center_idx: int, edge_pair: List[int]):
+                    eA, eB = edge_pair
+                    # Map atom indices → element symbols
+                    symA = section[eA][1]
+                    symC = section[center_idx][1]
+                    symB = section[eB][1]
+
+                    # Find bond order between eA and center
+                    bond1 = next(bo for (nbr, bo) in section[eA][4] if nbr == center_idx)
+                    sym_bond1 = "=" if bond1 == 2 else "#" if bond1 == 3 else ""
+
+                    # Find bond order between center and eB
+                    bond2 = next(bo for (nbr, bo) in section[center_idx][4] if nbr == eB)
+                    sym_bond2 = "=" if bond2 == 2 else "#" if bond2 == 3 else ""
+
+                    path_str = (symA + sym_bond1 + symC + sym_bond2 + symB).upper()
+
+                    # 1) Try section 7 (two-edge, val[1] == 0)
+                    candidate_keys = [
+                        key for key, val in martini_dict.items()
+                        if val[0] == 7 and val[1] == 0
+                           and (val[2].upper() == path_str or val[2].upper() == path_str[::-1])
+                    ]
+                    candidate_keys = list(set(candidate_keys))
+
+                    # 2) Fallback to section 11 if needed
+                    if not candidate_keys:
+                        candidate_keys = [
+                            key for key, val in martini_dict.items()
+                            if val[0] == 11 and val[1] == 0
+                               and (val[2].upper() == path_str or val[2].upper() == path_str[::-1])
+                        ]
+                        candidate_keys = list(set(candidate_keys))
+
+                    if len(candidate_keys) != 1:
+                        raise ValueError(f"Cannot map 2-edge path “{path_str}” for center {symC}.")
+                    bead = candidate_keys[0] + generate_random_string()
+                    # Assign this bead to all three atoms
+                    for idx in (eA, center_idx, eB):
+                        final[section[idx][0]] = bead
+
+                # Map first trio (c1 with edges1)
+                build_and_assign(c1, edges1)
+                # Map second trio (c2 with edges2)
+                build_and_assign(c2, edges2)
+
+                return final
+            else:
+                raise ValueError("Non-ring section with 4 edges has no 4-connected center or valid pair of 3-connected centers.")
         total_atoms = len(section)
         if total_atoms == 6:
             two_branch = None
@@ -2405,7 +2465,22 @@ def subdivide_non_ring_section_normal(section: List[List[Any]],
             sub_section = [section[i] for i in sub_old_indices]
             remainder = [section[i] for i in rem_old_indices]
             return sub_section, remainder, sub_old_indices, rem_old_indices
-        
+   # NEW SPECIAL CASE: look for any “center” atom with ≥ 4 inner connections and ≥ 3 of those neighbors flagged as edges
+    for i, atom in enumerate(section):
+        if len(atom[4]) >= 4:
+            # gather inner‐neighbors that are currently edges (atom[5] == True)
+            edge_nbrs = [nbr for (nbr, _) in atom[4] if section[nbr][5]]
+            if len(edge_nbrs) >= 3:
+                center_local   = i
+                chosen_edges   = edge_nbrs[:3]   # pick the first 3 edge‐neighbors
+                # build sub_old_indices = [center] + those 3 edges
+                sub_old_indices = [center_local] + chosen_edges
+                # remainder = “all other locals”
+                rem_old_indices = [j for j in range(len(section)) if j not in sub_old_indices]
+                sub_section = [section[idx] for idx in sub_old_indices]
+                remainder   = [section[idx] for idx in rem_old_indices]
+                return sub_section, remainder, sub_old_indices, rem_old_indices
+
     # (Inside subdivide_non_ring_section_normal)
     if len(candidate_edges) > 2:
         from collections import deque
@@ -2778,8 +2853,10 @@ def map_non_ring_section_long(section: List[List[Any]],
     full_mapping.pop(section_index)
     full_mapping.insert(section_index, sub_sec)
     full_mapping.insert(section_index + 1, rem_sec)
-    
-    final = map_non_ring_section_1bead(sub_sec, final, martini_dict, full_mapping)
+    if not is_non_ring_section_1bead_mappable(sub_sec):
+        final, full_mapping = map_non_ring_section_long(sub_sec, final, martini_dict, full_mapping, section_index)
+    else:
+        final = map_non_ring_section_1bead(sub_sec, final, martini_dict, full_mapping)
     if not is_non_ring_section_1bead_mappable(rem_sec):
         final, full_mapping = map_non_ring_section_long(rem_sec, final, martini_dict, full_mapping, section_index + 1)
     else:
