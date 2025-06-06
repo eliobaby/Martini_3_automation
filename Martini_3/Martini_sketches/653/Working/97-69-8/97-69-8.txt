@@ -1,4 +1,4 @@
-Compound: CC(=O)NC(C)C(=O)O
+Compound: 97-69-8
 SMILES:   CC(=O)NC(C)C(=O)O
 
 All beads
