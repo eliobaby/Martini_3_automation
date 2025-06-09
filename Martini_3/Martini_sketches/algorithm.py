@@ -1799,8 +1799,8 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                 # pick new key
                 if   bond == 1 and  connected: key = 'SN6'
                 elif bond == 2 and  connected: key = 'SN6a'
-                elif bond == 1 and not connected: key = 'N6'
-                else:                            key = 'N6a'
+                elif bond == 1 and not connected: key = 'N5'
+                else:                            key = 'N5a'
 
                 new_bead = key + generate_random_string()
                 final[gi] = new_bead
@@ -1822,7 +1822,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                                  if lookup_atom(neigh_idx)[0] == neigh_idx),
                                 None)
 
-                key      = 'N6' if bond == 1 else 'N6a'
+                key      = 'N5' if bond == 1 else 'N5a'
                 new_bead = key + generate_random_string()
 
                 final[gi] = new_bead
