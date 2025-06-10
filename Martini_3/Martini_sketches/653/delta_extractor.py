@@ -3,7 +3,7 @@ import pandas as pd
 # 1) Read in both CSVs
 # Adjust these filenames if yours differ exactly
 df1 = pd.read_csv("Table_S1_from_653.csv", header=0)
-df2 = pd.read_csv("logP_validation(653_Tristan).csv", header=0)
+df2 = pd.read_csv("dg_values_Working_10June25(in).csv", header=0)
 
 # 2) Identify columns by index positions (zero‐based)
 # For df1 (Table_S1_from_653):

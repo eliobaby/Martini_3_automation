@@ -4,18 +4,18 @@ res           1
 
 [ atoms ]
 ;    nr  type resnr resid  atom  cgnr     charge       mass
-      1 P3        1 res   C1        1      0.000     72.000
+      1 P4        1 res   C1        1      0.000     72.000
       2 TC5       1 res   C2        2      0.000     36.000
       3 TN6a      1 res   C3        3      0.000     36.000
       4 SN6       1 res   C4        4      0.000     54.000
       5 TC5       1 res   C5        5      0.000     36.000
       6 SX4e      1 res   C6        6      0.000     54.000
       7 TC5       1 res   C7        7      0.000     36.000
-      8 SP6?      1 res   C8        8      0.000     54.000
+      8 SP5?      1 res   C8        8      0.000     54.000
       9 TC5       1 res   C9        9      0.000     36.000
      10 SX3       1 res   C10      10      0.000     54.000
      11 TC5       1 res   C11      11      0.000     36.000
-     12 X4e       1 res   C12      12      0.000     72.000
+     12 SX4e      1 res   C12      12      0.000     54.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k

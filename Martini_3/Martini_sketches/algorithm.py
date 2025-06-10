@@ -697,52 +697,42 @@ def map_nonbenzene_6_ring_section(
             # find qualifying foreign connections on each
             cand_qual  = [x for x in atom[3]     if qualifies_foreign(x)]
             neigh_qual = [x for x in neighbor[3] if qualifies_foreign(x)]
-            # Case D1: both sides qualify
+           # Case D1: both sides qualify
             if len(cand_qual) == 1 and len(neigh_qual) == 1:
+                # FIX: ensure both ring atoms are carbon
+                if atom[1].upper() != 'C' or neighbor[1].upper() != 'C':
+                    raise ValueError("Double‐bond not mappable: both atoms must be C–C for D1")
                 fa = get_foreign_info(cand_qual[0])
                 fb = get_foreign_info(neigh_qual[0])
                 key1 = pick_bead_key(martini_dict, fa[1].upper(), bond_order, kind='T')
                 key2 = pick_bead_key(martini_dict, fb[1].upper(), bond_order, kind='T')
                 bead1 = (key1 + generate_random_string()) if key1 else ''
                 bead2 = (key2 + generate_random_string()) if key2 else ''
-                final[a_idx] = bead1
-                final[fa[0]] = bead1
-                final[b_idx] = bead2
-                final[fb[0]] = bead2
-                
+                final[a_idx]   = bead1
+                final[fa[0]]   = bead1
+                final[b_idx]   = bead2
+                final[fb[0]]   = bead2
+    
             # Case D2: exactly one side qualifies
             elif len(cand_qual) == 1 or len(neigh_qual) == 1:
-                fc = cand_qual[0] if len(cand_qual) == 1 else neigh_qual[0]
+                # FIX: ensure both ring atoms are carbon
+                if atom[1].upper() != 'C' or neighbor[1].upper() != 'C':
+                    raise ValueError("Double‐bond not mappable: both atoms must be C–C for D2")
+                fc = cand_qual[0] if len(cand_qual)==1 else neigh_qual[0]
                 foreign = get_foreign_info(fc)
                 key = pick_bead_key(martini_dict,
                                     foreign[1].upper(),
                                     bond_order,
                                     kind='S')
                 bead = (key + generate_random_string()) if key else ''
-                final[a_idx] = bead
-                final[b_idx] = bead
-                final[foreign[0]] = bead
+                final[a_idx]         = bead
+                final[b_idx]         = bead
+                final[foreign[0]]    = bead
     
-            # Case D3: neither side qualifies – choose bead type based on atom types
+            # Case D3: neither side qualifies
             else:
-                # get uppercase element symbols for each of the two atoms
-                elem_a = atom[1].upper()
-                elem_b = neighbor[1].upper()
-    
-                # if both are C → TC5
-                if elem_a == 'C' and elem_b == 'C':
-                    bead = "TC5" + generate_random_string()
-    
-                # if one is C and the other is N → TN6a
-                elif (elem_a == 'C' and elem_b == 'N') or (elem_a == 'N' and elem_b == 'C'):
-                    bead = "TN6a" + generate_random_string()
-    
-                # otherwise, fall back to TC5
-                else:
-                    bead = "TC5" + generate_random_string()
-    
-                final[a_idx] = bead
-                final[b_idx] = bead
+                # FIX: no fallback—throw an error instead
+                raise ValueError("Double‐bond not mappable: no qualifying foreign on either side")
     
             processed_double.add((a_idx, b_idx))
             # once we’ve assigned for this atom, break out to next atom
@@ -898,7 +888,6 @@ def map_nonbenzene_6_ring_section(
                 final[atom[0]] = bead
                 final[foreign_atom[0]] = bead
                 break   # move on to next atom
-                
     # --- Step D: Final fallback mapping for remaining unmapped atoms
     remaining = [atom for atom in section if final[atom[0]] == ""]
     count = len(remaining)
