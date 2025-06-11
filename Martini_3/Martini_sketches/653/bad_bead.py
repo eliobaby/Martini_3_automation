@@ -77,13 +77,13 @@ def main():
 
     # 7) Write to bad_bead.csv
     fieldnames = ["bead", "error", "total", "%error"]
-    with open("bad_bead_2.csv", "w", newline='') as csvfile:
+    with open("bad_bead.csv", "w", newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for row in output_rows:
             writer.writerow(row)
 
-    print(f"Wrote {len(output_rows)} beads to bad_bead_2.csv")
+    print(f"Wrote {len(output_rows)} beads to bad_bead.csv")
 
 
 if __name__ == "__main__":

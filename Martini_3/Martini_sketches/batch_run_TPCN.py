@@ -83,7 +83,7 @@ def main():
                 itp_path = os.path.join(comp_folder, f"{comp_id}.itp")
                 with open(itp_path) as itf:
                     itp_lines = itf.readlines()
-                is_half = (not is_fake) and any('z' in line for line in itp_lines[6:])
+                is_half = (not is_fake) and any('?' in line for line in itp_lines[6:])
                 
                 # still use .gro to detect “large”
                 gro_path = os.path.join(comp_folder, f"{comp_id}.gro")
@@ -101,6 +101,12 @@ def main():
                     continue
 
                 if is_half:
+                    # ——— sanitize the .itp by removing all 'z' characters ———
+                    sanitized_itp = [line.replace('?', '') for line in itp_lines]
+                    with open(itp_path, 'w') as itf:
+                        itf.writelines(sanitized_itp)
+
+                    # ——— now move to Half_working/ ———
                     dest = os.path.join(half_dir, comp_id)
                     if os.path.isdir(dest):
                         shutil.rmtree(dest)

@@ -588,6 +588,20 @@ def map_nonbenzene_6_ring_section(
          - If exactly 6 remain, use the original (oxygen-based) mapping.
          - Otherwise, for counts 5, 4, 3, 2, or 1, fixed
     """
+    # --- SPECIAL S–S HANDLER  ---
+    # If two unmapped sulfurs sit next to each other in the ring, pair them immediately.
+    for atom in section:
+        if atom[1].upper() == 'S' and final[atom[0]] == "":
+            for (nbr_local, _) in atom[4]:
+                nbr = section[nbr_local]
+                if nbr[1].upper() == 'S' and final[nbr[0]] == "":
+                    # Assign both sulfurs a TC5 bead
+                    rstr = generate_random_string()
+                    bead = "TC5" + rstr
+                    final[atom[0]] = bead
+                    final[nbr[0]]  = bead
+                    # break out of the neighbor‐loop so we only do one pair
+                    break
     
     # Helper function: Get foreign atom from an outer connection tuple.
     def get_foreign_info(tup):
@@ -697,7 +711,7 @@ def map_nonbenzene_6_ring_section(
             # find qualifying foreign connections on each
             cand_qual  = [x for x in atom[3]     if qualifies_foreign(x)]
             neigh_qual = [x for x in neighbor[3] if qualifies_foreign(x)]
-           # Case D1: both sides qualify
+            # Case D1: both sides qualify
             if len(cand_qual) == 1 and len(neigh_qual) == 1:
                 # FIX: ensure both ring atoms are carbon
                 if atom[1].upper() != 'C' or neighbor[1].upper() != 'C':
@@ -728,11 +742,27 @@ def map_nonbenzene_6_ring_section(
                 final[a_idx]         = bead
                 final[b_idx]         = bead
                 final[foreign[0]]    = bead
-    
-            # Case D3: neither side qualifies
+            # Case D3: neither side qualifies – choose bead type based on atom types
             else:
-                # FIX: no fallback—throw an error instead
-                raise ValueError("Double‐bond not mappable: no qualifying foreign on either side")
+                # get uppercase element symbols for each of the two atoms
+                elem_a = atom[1].upper()
+                elem_b = neighbor[1].upper()
+    
+                # if both are C → TC5
+                if elem_a == 'C' and elem_b == 'C':
+                    bead = "TC5" + generate_random_string()
+    
+                # if one is C and the other is N → TN6a
+                elif (elem_a == 'C' and elem_b == 'N') or (elem_a == 'N' and elem_b == 'C'):
+                    bead = "TN6a" + generate_random_string()
+    
+                # otherwise, fall back to TC5
+                else:
+                    # FIX: no fallback—throw an error instead
+                    raise ValueError("Double‐bond not mappable: no qualifying foreign on either side")
+    
+                final[a_idx] = bead
+                final[b_idx] = bead
     
             processed_double.add((a_idx, b_idx))
             # once we’ve assigned for this atom, break out to next atom
@@ -1137,8 +1167,23 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
       
       (D) Final check: if any atom in the section remains unmapped, raise an error.
       
-    Returns final.
+    Returns final
     """
+    # --- SPECIAL S–S HANDLER  ---
+    # If two unmapped sulfurs sit next to each other in the ring, pair them immediately.
+    for atom in section:
+        if atom[1].upper() == 'S' and final[atom[0]] == "":
+            for (nbr_local, _) in atom[4]:
+                nbr = section[nbr_local]
+                if nbr[1].upper() == 'S' and final[nbr[0]] == "":
+                    # Assign both sulfurs a TC5 bead
+                    rstr = generate_random_string()
+                    bead = "TC5" + rstr
+                    final[atom[0]] = bead
+                    final[nbr[0]]  = bead
+                    # break out of the neighbor‐loop so we only do one pair
+                    break
+    
     # -----------------------
     # (A) Process double bonds among C and N atoms.
     candidate_indices: List[Tuple[int, int, str, Optional[bool]]] = []
@@ -1739,7 +1784,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
             def lookup_atom(gidx):
                 sec_idx, loc_idx = global_to_sec_loc[gidx]
                 return full_mapping[sec_idx][loc_idx]
-
+            '''
             # Case 2: SC3
             if 'SC3' in stripped:
                 i         = stripped.index('SC3')
@@ -1864,6 +1909,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                     if v == bead_tag:
                         final[j] = new_bead
                 return final
+            '''
             # nothing matched
             print(f"[lone‑O] couldn’t map O@{gi}, neighbor beads = {neighbor_beads}")
             raise ValueError("1-edge non-ring not mappable (non-C)")

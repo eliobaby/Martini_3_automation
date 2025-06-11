@@ -35,7 +35,7 @@ def get_coordinates_from_smiles(smiles: str):
             'z': pos.z
         })
     return coords
-
+'''
 from openbabel import pybel
 
 def get_coordinates_from_smiles2(smiles: str):
@@ -86,7 +86,6 @@ def get_coordinates_from_smiles2(smiles: str):
             'z': z
         })
     return coords
-'''
 
 smiles = input("SMILES: ")
 coords2 = get_coordinates_from_smiles2(smiles)

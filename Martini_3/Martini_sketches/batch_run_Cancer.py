@@ -96,6 +96,12 @@ def main():
                     continue
 
                 if is_half:
+                    # ——— sanitize the .itp by removing all 'z' characters ———
+                    sanitized_itp = [line.replace('?', '') for line in itp_lines]
+                    with open(itp_path, 'w') as itf:
+                        itf.writelines(sanitized_itp)
+
+                    # ——— now move to Half_working/ ———
                     dest = os.path.join(half_dir, comp_id)
                     if os.path.isdir(dest):
                         shutil.rmtree(dest)
@@ -103,6 +109,7 @@ def main():
                     half_working_count += 1
                     print(f"  • {comp_id}: HALF → Half_working/{comp_id}/", flush=True)
                     continue
+
 
                 if is_large:
                     dest = os.path.join(large_dir, comp_id)

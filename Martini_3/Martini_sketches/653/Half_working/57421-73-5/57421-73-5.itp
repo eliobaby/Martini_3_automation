@@ -4,9 +4,9 @@ res           1
 
 [ atoms ]
 ;    nr  type resnr resid  atom  cgnr     charge       mass
-      1 TN1az     1 res   C1        1      0.000     36.000
-      2 TN5a      1 res   C2        2      0.000     36.000
-      3 TN3       1 res   C3        3      0.000     36.000
+      1 TN1a     1 res   C1        1      0.000     36.000
+      2 TN4a      1 res   C2        2      0.000     36.000
+      3 TN5       1 res   C3        3      0.000     36.000
       4 TC5       1 res   C4        4      0.000     36.000
 
 [ bonds ]

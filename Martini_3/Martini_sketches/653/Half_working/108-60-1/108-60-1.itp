@@ -6,7 +6,7 @@ res           1
 ;    nr  type resnr resid  atom  cgnr     charge       mass
       1 TX3h      1 res   C1        1      0.000     36.000
       2 TC3       1 res   C2        2      0.000     36.000
-      3 X3z       1 res   C3        3      0.000     72.000
+      3 X3       1 res   C3        3      0.000     72.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k
