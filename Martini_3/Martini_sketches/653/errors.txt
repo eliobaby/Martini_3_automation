@@ -34,29 +34,29 @@ mapping section 1 failed: Double‐bond not mappable: no qualifying foreign on e
 Error: Double‐bond not mappable: no qualifying foreign on either side
 1 times Error: Error: 1-edge non-ring not mappable (non-C)
 1 times Error: Error: Need exactly 2 centers to split; found 1
-1 times Error: [lone‑O] couldn’t map O@2, neighbor beads = ['TN6a(Ir=nJ']
+1 times Error: [lone‑O] couldn’t map O@2, neighbor beads = ['TN6a0u`gpo']
 mapping section 0 failed: Double‐bond not mappable: both atoms must be C–C for D2
 Error: Double‐bond not mappable: both atoms must be C–C for D2
 1 times Error: mapping section 0 failed: 3-ring not mappable: Found an inner bond order not equal to 1.
 mapping section 0 failed: 3-ring not mappable: Found an inner bond order not equal to 1.
 Error: 3-ring not mappable: Found an inner bond order not equal to 1.
-1 times Error: [lone‑O] couldn’t map O@2, neighbor beads = ["SC3WX4V')"]
+1 times Error: [lone‑O] couldn’t map O@2, neighbor beads = ['SC3vgb$no']
 mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
 1 times Error: Error: lone atom is next to unmapped atoms
-1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ['TN6ac/!/`8']
+1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ['TN6aS}}3&g']
 mapping section 0 failed: Double‐bond not mappable: both atoms must be C–C for D2
 Error: Double‐bond not mappable: both atoms must be C–C for D2
-1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ['TN6aLe"F3`']
+1 times Error: [lone‑O] couldn’t map O@12, neighbor beads = ['TN6a0{$=ZI']
 mapping section 0 failed: Double‐bond not mappable: both atoms must be C–C for D1
 Error: Double‐bond not mappable: both atoms must be C–C for D1
 1 times Error: mapping section 0 failed: Non-benzene 6-ring: no singleton C neighbor for count=5
 mapping section 0 failed: Non-benzene 6-ring: no singleton C neighbor for count=5
 Error: Non-benzene 6-ring: no singleton C neighbor for count=5
-1 times Error: [lone‑O] couldn’t map O@11, neighbor beads = ['TN6aCvFoHd']
+1 times Error: [lone‑O] couldn’t map O@11, neighbor beads = ['TN6aHx@yw/']
 mapping section 0 failed: Double‐bond not mappable: both atoms must be C–C for D2
 Error: Double‐bond not mappable: both atoms must be C–C for D2
-1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN1T:[_JU']
+1 times Error: [lone‑O] couldn’t map O@9, neighbor beads = ['SN1\\l8V5~']
 mapping section 0 failed: non-benzene 6-ring section has non C/O atom
 Error: non-benzene 6-ring section has non C/O atom
 1 times Error: mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring section: 5-ring section is too difficult to be mapped! TODO: add proper handling for both foreign neighbors case.
@@ -65,6 +65,6 @@ mapping section 0 failed as a 5-ring section, attempt as if it is a 6-ring secti
 mapping section 0 failed: 2 size‑1 neighbors incompatible for central C
 Error: 2 size‑1 neighbors incompatible for central C
 1 times Error: Error: Non‐ring section cannot be mapped: no candidate bead found for 4-edge mapping (center: Cl and branches: ['C', 'Cl', 'Cl', '']).
-1 times Error: [lone‑O] couldn’t map O@0, neighbor beads = ['TN6aN%?v-s']
+1 times Error: [lone‑O] couldn’t map O@0, neighbor beads = ['TN6a4`^9CD']
 mapping section 0 failed: Double‐bond not mappable: both atoms must be C–C for D2
 Error: Double‐bond not mappable: both atoms must be C–C for D2

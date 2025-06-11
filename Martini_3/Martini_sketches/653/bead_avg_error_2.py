@@ -17,7 +17,7 @@ def update_bead_errors(cas, error_value, bead_dict):
            new_set = prev_set ∪ {cas}
            store [new_avg, new_count, new_set]
     """
-    roots = ["Working", "Half_working"]
+    roots = ["Working"]
     exts = [".text", ".txt"]
     found_path = None
 

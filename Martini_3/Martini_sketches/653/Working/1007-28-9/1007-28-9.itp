@@ -7,7 +7,7 @@ res           1
       1 SN6d      1 res   C1        1      0.000     54.000
       2 SX3       1 res   C2        2      0.000     54.000
       3 TN6a      1 res   C3        3      0.000     36.000
-      4 SN6       1 res   C4        4      0.000     54.000
+      4 SP2       1 res   C4        4      0.000     54.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k

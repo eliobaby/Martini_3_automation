@@ -597,7 +597,7 @@ def map_nonbenzene_6_ring_section(
                 if nbr[1].upper() == 'S' and final[nbr[0]] == "":
                     # Assign both sulfurs a TC5 bead
                     rstr = generate_random_string()
-                    bead = "TC5" + rstr
+                    bead = "TN2" + rstr
                     final[atom[0]] = bead
                     final[nbr[0]]  = bead
                     # break out of the neighbor‐loop so we only do one pair
@@ -1076,8 +1076,8 @@ def map_nonbenzene_6_ring_section(
                 break
     elif count == 1:
         lone = remaining[0]
-        if lone[1].upper() == 'O':
-            raise ValueError("non benzene 6-ring has a lone Oxygen left")
+        if lone[1].upper() != 'C':
+            raise ValueError("non benzene 6-ring has a lone non-Carbon left")
         # else C
         # try find T-bead neighbor
         # check its mapped neighbors
@@ -1178,7 +1178,7 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
                 if nbr[1].upper() == 'S' and final[nbr[0]] == "":
                     # Assign both sulfurs a TC5 bead
                     rstr = generate_random_string()
-                    bead = "TC5" + rstr
+                    bead = "TN2" + rstr
                     final[atom[0]] = bead
                     final[nbr[0]]  = bead
                     # break out of the neighbor‐loop so we only do one pair

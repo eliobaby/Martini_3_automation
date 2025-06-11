@@ -5,12 +5,12 @@ res           1
 [ atoms ]
 ;    nr  type resnr resid  atom  cgnr     charge       mass
       1 SN2a      1 res   C1        1      0.000     54.000
-      2 SN6       1 res   C2        2      0.000     54.000
+      2 SP2       1 res   C2        2      0.000     54.000
       3 SC5       1 res   C3        3      0.000     54.000
       4 SN2a      1 res   C4        4      0.000     54.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k
     1     2     1      0.29717    20000
-    2     3     1      0.26815    20000
+    2     3     1      0.26817    20000
     2     4     1      0.23830    20000

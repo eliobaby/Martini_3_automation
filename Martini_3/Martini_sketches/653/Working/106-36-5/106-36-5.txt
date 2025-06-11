@@ -4,7 +4,7 @@ SMILES:   CCC(=O)OCCC
 All beads
 --------------------------------------------------------------------------------
 index    bead_type  atoms_idx            atoms_elem           #conns       mass     x        y        z       
-0        N5a        0,1,2,3              C,C,C,O              1            72.0     0.1853   0.0345   0.0646  
+0        N5a        0,1,2,3              C,C,C,O              1            72.0     0.1853   0.0344   0.0647  
 1        N2         4,5,6,7              O,C,C,C              1            72.0     -0.1538  -0.0208  -0.0466 
 
 Bead connections
