@@ -1785,6 +1785,7 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                 sec_idx, loc_idx = global_to_sec_loc[gidx]
                 return full_mapping[sec_idx][loc_idx]
             '''
+            This section will be fixed in a later update
             # Case 2: SC3
             if 'SC3' in stripped:
                 i         = stripped.index('SC3')
