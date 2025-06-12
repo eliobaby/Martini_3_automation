@@ -597,7 +597,7 @@ def map_nonbenzene_6_ring_section(
                 if nbr[1].upper() == 'S' and final[nbr[0]] == "":
                     # Assign both sulfurs a TC5 bead
                     rstr = generate_random_string()
-                    bead = "TN2" + rstr
+                    bead = "TN1" + rstr
                     final[atom[0]] = bead
                     final[nbr[0]]  = bead
                     # break out of the neighbor‐loop so we only do one pair
@@ -1178,7 +1178,7 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
                 if nbr[1].upper() == 'S' and final[nbr[0]] == "":
                     # Assign both sulfurs a TC5 bead
                     rstr = generate_random_string()
-                    bead = "TN2" + rstr
+                    bead = "TN1" + rstr
                     final[atom[0]] = bead
                     final[nbr[0]]  = bead
                     # break out of the neighbor‐loop so we only do one pair
@@ -1355,7 +1355,7 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
             if final[foreign_atom[0]] == "":
                 # Use the global mapping for foreign connection.
                 rstr = generate_random_string()
-                bead = "TN1" + rstr
+                bead = "TN3" + rstr
                 final[atom[0]] = bead
                 # Lookup in full_mapping.
                 final[foreign_atom[0]] = bead
@@ -1383,19 +1383,19 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
                 # If both inner neighbors are unmapped, assign TN4a.
                 if final[left_idx] == "" and final[right_idx] == "":
                     a_str = generate_random_string()
-                    bead = "TN4a" + a_str
+                    bead = "TP2a" + a_str
                     final[atom[0]] = bead
                     # According to your pseudocode, assign only the left neighbor.
                     final[left_idx] = bead
                 else:
                     # Otherwise, assign TN2a to the atom only.
                     a_str = generate_random_string()
-                    bead = "TN2a" + a_str
+                    bead = "TN3a" + a_str
                     final[atom[0]] = bead
             else:
                 # If there are fewer than 2 inner neighbors, default to TN2a.
                 a_str = generate_random_string()
-                bead = "TN2a" + a_str
+                bead = "TN3a" + a_str
                 final[atom[0]] = bead
     elif len(array1) == 2:
         # If both atoms are O.
