@@ -6,7 +6,7 @@ All beads
 index    bead_type  atoms_idx            atoms_elem           #conns       mass     x        y        z       
 0        X1         0,1,2                c,c,I                2            72.0     -0.2060  0.1263   0.0035  
 1        TC5        3,4                  c,c                  3            36.0     0.0282   0.0457   -0.0018 
-2        SP1a       5,6,7                C,O,O                1            54.0     0.2565   -0.0101  -0.0073 
+2        SN5a       5,6,7                C,O,O                1            54.0     0.2565   -0.0101  -0.0073 
 3        TC5        8,9                  c,c                  2            36.0     -0.0770  -0.1361  0.0051  
 
 Bead connections

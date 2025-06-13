@@ -441,12 +441,12 @@ def map_benzene_ring_section(section: List[List[Any]],
             foreign_atom = foreign_sec[foreign_tup[1]]
             rstr = generate_random_string()
             if foreign_atom[1].upper() == 'O' and atom[1].upper() == 'C':
-                final[atom[0]] = "SN2a" + rstr
-                final[foreign_atom[0]] = "SN2a" + rstr
+                final[atom[0]] = "SC6a" + rstr
+                final[foreign_atom[0]] = "SC6a" + rstr
                 if foreign_atom[4]:
                     nbr_local = foreign_atom[4][0][0]
                     nbr_in_foreign = foreign_sec[nbr_local]
-                    final[nbr_in_foreign[0]] = "SN2a" + rstr
+                    final[nbr_in_foreign[0]] = "SC6a" + rstr
     else:
         # If the condition is not met, we skip mapping SN2a.
         pass
@@ -1383,7 +1383,7 @@ def map_nonbenzene_5_ring_section(section: List[List[Any]],
                 # If both inner neighbors are unmapped, assign TN4a.
                 if final[left_idx] == "" and final[right_idx] == "":
                     a_str = generate_random_string()
-                    bead = "TP2a" + a_str
+                    bead = "TP6a" + a_str
                     final[atom[0]] = bead
                     # According to your pseudocode, assign only the left neighbor.
                     final[left_idx] = bead
@@ -1917,7 +1917,13 @@ def map_non_ring_section_1bead(section: List[List[Any]],
         # convert T* to S*
         for n in neigh:
             b=final[n]
-            if b.startswith('T'):
+            if b.startswith('TN6'):
+                new='SN4'+b[4:]
+                ids=[i for i,v in enumerate(final) if v==b]
+                for i in ids: final[i]=new
+                final[idx]=final[n]=new
+                return final
+            elif b.startswith('T'):
                 new='S'+b[1:]
                 ids=[i for i,v in enumerate(final) if v==b]
                 for i in ids: final[i]=new
@@ -2039,17 +2045,17 @@ def map_non_ring_section_1bead(section: List[List[Any]],
                         if foreign_bead.startswith("SX4e"):
                             rstr = generate_random_string()
                             for a in section:
-                                final[a[0]] = candidate_keys[1] + rstr
+                                final[a[0]] = candidate_keys[0] + rstr
                             return final
                         else:
                             rstr = generate_random_string()
                             for a in section:
-                                final[a[0]] = candidate_keys[0] + rstr
+                                final[a[0]] = candidate_keys[1] + rstr
                             return final
                     else:
                         rstr = generate_random_string()
                         for a in section:
-                            final[a[0]] = candidate_keys[0] + rstr
+                            final[a[0]] = candidate_keys[1] + rstr
                         return final
     # CASE 2: 3 edge atoms.
     elif num_edges == 3:

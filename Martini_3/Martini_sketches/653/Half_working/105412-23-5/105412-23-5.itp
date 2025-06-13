@@ -4,9 +4,9 @@ res           1
 
 [ atoms ]
 ;    nr  type resnr resid  atom  cgnr     charge       mass
-      1 TN6       1 res   C1        1      0.000     36.000
+      1 TP1       1 res   C1        1      0.000     36.000
       2 TC6      1 res   C2        2      0.000     36.000
-      3 TN6       1 res   C3        3      0.000     36.000
+      3 TP1       1 res   C3        3      0.000     36.000
       4 SX4e      1 res   C4        4      0.000     54.000
       5 SX4e      1 res   C5        5      0.000     54.000
       6 SX4e      1 res   C6        6      0.000     54.000

@@ -4,12 +4,12 @@ res           1
 
 [ atoms ]
 ;    nr  type resnr resid  atom  cgnr     charge       mass
-      1 TX2       1 res   C1        1      0.000     36.000
-      2 TX2       1 res   C2        2      0.000     36.000
-      3 TX2       1 res   C3        3      0.000     36.000
-      4 TX2       1 res   C4        4      0.000     36.000
-      5 TX2       1 res   C5        5      0.000     36.000
-      6 TX2       1 res   C6        6      0.000     36.000
+      1 TX1       1 res   C1        1      0.000     36.000
+      2 TX1       1 res   C2        2      0.000     36.000
+      3 TX1       1 res   C3        3      0.000     36.000
+      4 TX1       1 res   C4        4      0.000     36.000
+      5 TX1       1 res   C5        5      0.000     36.000
+      6 TX1       1 res   C6        6      0.000     36.000
 
 [ bonds ]
 ;  ai    aj   funct      b0(nm)        k

@@ -4,7 +4,7 @@ SMILES:   CCCCN=C=S
 All beads
 --------------------------------------------------------------------------------
 index    bead_type  atoms_idx            atoms_elem           #conns       mass     x        y        z       
-0        C5         0,1,2,3              C,C,C,C              1            72.0     -0.0630  0.0091   0.0060  
+0        C3         0,1,2,3              C,C,C,C              1            72.0     -0.0630  0.0091   0.0060  
 1        SN2?       4,5,6                N,C,S                1            54.0     0.3677   -0.0402  -0.0268 
 
 Bead connections
